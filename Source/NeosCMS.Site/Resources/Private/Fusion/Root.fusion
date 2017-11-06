@@ -1,6 +1,4 @@
 namespace: Site=NeosCMS.Site
-include: NodeTypes/*
-include: ProtoTypes/*
 include: Overwrite.fusion
 page = Neos.Neos:Page {
 	head {
@@ -36,7 +34,7 @@ page = Neos.Neos:Page {
 		templatePath = 'resource://NeosCMS.Site/Private/Templates/Page/Default.html'
 		sectionName = 'body'
 		parts {
-			menu = Fundamental.Site:MainMenu
+			menu = Menu
 		}
 
 		content {
