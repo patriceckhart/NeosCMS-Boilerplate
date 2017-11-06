@@ -5,7 +5,9 @@
    <node nodeName="site">
     <variant workspace="live" nodeType="Neos.NodeTypes:Page" sortingIndex="100" version="1" removed="" hidden="" hiddenInIndex="">
      <dimensions>
-
+     
+      <language>de_DE</language>
+     
      </dimensions>
      <accessRoles __type="array"/>
      <properties>
@@ -16,7 +18,9 @@
     <node nodeName="main">
      <variant workspace="live" nodeType="Neos.Neos:ContentCollection" sortingIndex="100" version="1" removed="" hidden="" hiddenInIndex="">
       <dimensions>
-
+      
+       <language>de_DE</language>
+      
       </dimensions>
       <accessRoles __type="array"/>
      </variant>
