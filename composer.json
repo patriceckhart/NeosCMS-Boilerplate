@@ -1,0 +1,23 @@
+{
+	"name": "neoscms/boilerplate",
+	"description": "Best practice boilerplate for Neos",
+	"config": {
+		"vendor-dir": "Packages/Libraries",
+		"bin-dir": "bin"
+	},
+	"require": {
+		"neoscms/site": "*"
+	},
+	"scripts": {
+		"post-update-cmd": "Neos\\Flow\\Composer\\InstallerScripts::postUpdateAndInstall",
+		"post-install-cmd": "Neos\\Flow\\Composer\\InstallerScripts::postUpdateAndInstall",
+		"post-package-update": "Neos\\Flow\\Composer\\InstallerScripts::postPackageUpdateAndInstall",
+		"post-package-install": "Neos\\Flow\\Composer\\InstallerScripts::postPackageUpdateAndInstall"
+	},
+	"repositories": [
+		{
+			"type": "path",
+			"url": "Source/NeosCMS.Site"
+		}
+	]
+}

@@ -1,0 +1,7 @@
+Neos:
+  Neos:
+    nodeTypes:
+      groups:
+        additional:
+          position: 'end'
+          label: 'Spezielle Inhaltselemente'

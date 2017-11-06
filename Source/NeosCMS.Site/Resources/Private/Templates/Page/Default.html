@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+{namespace neos=Neos\Neos\ViewHelpers}
+{namespace fusion=Neos\Fusion\ViewHelpers}
+{namespace media=Neos\Media\ViewHelpers}
+<html>
+<head>
+	<f:section name="metadata">
+		<meta name="apple-mobile-web-app-title" content="NeosCMS">
+	</f:section>
+	<f:section name="stylesheets">
+		<link rel="stylesheet" href="{f:uri.resource(path: 'Styles/main.css', package: 'NeosCMS.Site')}" media="all" />
+	</f:section>
+	<f:section name="headScripts">
+
+	</f:section>
+	<f:section name="backendStylesheets">
+		<link rel="stylesheet" href="{f:uri.resource(path: 'Styles/backend.css', package: 'NeosCMS.Site')}" media="all" />
+	</f:section>
+</head>
+<body>
+<f:section name="body">
+	<header>
+		<div class="row">
+			<a href="/" class="brand"><img src="{f:uri.resource(path: 'Images/Logo.png', package: 'NeosCMS.Site')}" alt="NeosCMS" /></a>
+			{parts.menu -> f:format.raw()}
+		</div>
+	</header>
+	<main>
+		{content.main -> f:format.raw()}
+	</main>
+	<footer>
+		{footer -> f:format.raw()}
+	</footer>
+</f:section>
+<f:section name="bodyScripts">
+	<script src="{f:uri.resource(path: 'JavaScript/main.js', package: 'NeosCMS.Site')}"></script>
+</f:section>
+</body>
+</html>

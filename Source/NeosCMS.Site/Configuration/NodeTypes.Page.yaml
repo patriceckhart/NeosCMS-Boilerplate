@@ -1,0 +1,10 @@
+'NeosCMS.Site:Homepage':
+  ui:
+    label: 'Homepage'
+    icon: 'icon-globe'
+  superTypes:
+    'Neos.NodeTypes:Page': TRUE
+  childNodes:
+    'footer':
+      position: 'end'
+      type: 'Neos.Neos:ContentCollection'

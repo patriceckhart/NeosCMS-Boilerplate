@@ -1,0 +1,31 @@
+web:
+  image: dimaip/docker-neos-alpine:latest
+  restart: unless-stopped
+  ports:
+    - '80:80'
+    - '22:22'
+  links:
+    - db:db
+  volumes:
+    - /data
+  environment:
+    REPOSITORY_URL: 'https://github.com/patriceckhart/NeosCMS-Boilerplate'
+    SITE_PACKAGE: 'NeosCMS.Site'
+    VERSION: '3.2'
+    ADMIN_PASSWORD: 'password'
+    IMPORT_GITHUB_PUB_KEYS: 'patriceckhart'
+
+db:
+  image: mariadb:latest
+  restart: unless-stopped
+  expose:
+    - 3306
+  volumes:
+    - /data
+  environment:
+    MYSQL_DATABASE: 'db'
+    MYSQL_USER: 'admin'
+    MYSQL_PASSWORD: 'pass'
+    MYSQL_RANDOM_ROOT_PASSWORD: 'yes'
+  ports:
+    - '3306:3306'
