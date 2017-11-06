@@ -9,16 +9,10 @@
         {
             "type": "path",
 			"url": "Source/NeosCMS.Site"
-        },
-        {
-            "name": "fundamental/site",
-            "url": "https://github.com/patriceckhart/Fundamental.Site.git",
-            "type": "git"
         }
     ],
 	"require": {
-		"neoscms/site": "1.0.x-dev",
-		"fundamental/site": "dev-master"
+		"neoscms/site": "1.0.x-dev"
 	},
 	"scripts": {
 		"post-update-cmd": "Neos\\Flow\\Composer\\InstallerScripts::postUpdateAndInstall",

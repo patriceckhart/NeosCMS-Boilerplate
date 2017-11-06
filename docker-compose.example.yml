@@ -12,6 +12,7 @@ web:
     REPOSITORY_URL: 'https://github.com/patriceckhart/NeosCMS-Boilerplate'
     SITE_PACKAGE: 'NeosCMS.Site'
     ADMIN_PASSWORD: 'password'
+    BASE_URI: 'http://localhost/'
     IMPORT_GITHUB_PUB_KEYS: 'patriceckhart'
 
 db:
