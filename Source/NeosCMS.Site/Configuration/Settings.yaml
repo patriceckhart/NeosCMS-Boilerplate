@@ -1,5 +1,12 @@
 Neos:
+  Flow:
+    i18n:
+      defaultLocale: de
   Neos:
+    eventLog:
+      enabled: TRUE
+    userInterface:
+      defaultLanguage: de
     nodeTypes:
       groups:
         additional:
