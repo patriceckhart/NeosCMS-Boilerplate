@@ -2,6 +2,13 @@
     "name": "neoscms/site",
     "description": "Neos Website",
     "type": "neos-site",
+    "repositories": [
+        {
+            "name": "fundamental/site",
+            "url": "https://github.com/patriceckhart/Fundamental.Site.git",
+            "type": "git"
+        }
+    ],
     "require": {
         "neos/neos": "~3.2.0",
         "neos/seo": "*",
@@ -11,7 +18,8 @@
         "moc/notfound": "^3.0",
         "neos/swiftmailer": "^6.0",
         "networkteam/neos-mailobfuscator": "2.0.0",
-        "neos/form-builder": "^1.0"
+        "neos/form-builder": "^1.0",
+        "fundamental/site": "*"
     },
     "autoload": {
         "psr-4": {
