@@ -5,19 +5,19 @@
 		"vendor-dir": "Packages/Libraries",
 		"bin-dir": "bin"
 	},
+	"repositories": [
+        {
+            "type": "path",
+			"url": "Source/NeosCMS.Site"
+        }
+    ],
 	"require": {
-		"neoscms/site": "*"
+		"neoscms/site": "1.0.x-dev"
 	},
 	"scripts": {
 		"post-update-cmd": "Neos\\Flow\\Composer\\InstallerScripts::postUpdateAndInstall",
 		"post-install-cmd": "Neos\\Flow\\Composer\\InstallerScripts::postUpdateAndInstall",
 		"post-package-update": "Neos\\Flow\\Composer\\InstallerScripts::postPackageUpdateAndInstall",
 		"post-package-install": "Neos\\Flow\\Composer\\InstallerScripts::postPackageUpdateAndInstall"
-	},
-	"repositories": [
-		{
-			"type": "path",
-			"url": "Source/NeosCMS.Site"
-		}
-	]
+	}
 }

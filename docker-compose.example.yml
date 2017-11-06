@@ -11,7 +11,6 @@ web:
   environment:
     REPOSITORY_URL: 'https://github.com/patriceckhart/NeosCMS-Boilerplate'
     SITE_PACKAGE: 'NeosCMS.Site'
-    VERSION: '3.2'
     ADMIN_PASSWORD: 'password'
     IMPORT_GITHUB_PUB_KEYS: 'patriceckhart'
 
