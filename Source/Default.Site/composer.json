@@ -5,6 +5,7 @@
     "require": {
         "neos/neos": "~3.2.0",
         "neos/nodetypes": "*",
+        "neos/seo": "*",
         "neos/site-kickstarter": "~3.2.0",
         "neos/redirecthandler-neosadapter": "*",
         "neos/redirecthandler-databasestorage": "*",
@@ -16,9 +17,6 @@
         "neos/swiftmailer": "6.0.0",
         "networkteam/neos-mailobfuscator": "2.0.0",
         "neos/form-builder": "1.0.0"
-    },
-    "suggest": {
-        "neos/seo": "*"
     },
     "autoload": {
         "psr-4": {
