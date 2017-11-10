@@ -1,16 +1,17 @@
 {
-    "name": "neoscms/site",
+    "name": "Default/site",
     "description": "Neos Website",
     "type": "neos-site",
     "require": {
         "neos/neos": "~3.2.0",
         "neos/nodetypes": "*",
+        "neos/site-kickstarter": "~3.2.0",
         "neos/redirecthandler-neosadapter": "*",
         "neos/redirecthandler-databasestorage": "*",
         "neos/googleanalytics": "^2.0",
 
+        "opsdev/cache-breaker": "^3.0",
         "moc/notfound": "^3.0",
-        "moc/imageoptimizer": "^3.0",
 
         "neos/swiftmailer": "6.0.0",
         "networkteam/neos-mailobfuscator": "2.0.0",
@@ -21,7 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "NeosCMS\\Site\\": "Classes/"
+            "Default\\Site\\": "Classes/"
         }
     },
     "extra": {
@@ -29,7 +30,7 @@
             "dev-master": "1.0.x-dev"
         },
         "neos": {
-            "package-key": "NeosCMS.Site"
+            "package-key": "Default.Site"
         }
     }
 }

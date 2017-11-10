@@ -1,0 +1,4 @@
+Neos:
+  Neos:
+    eventLog:
+      enabled: TRUE

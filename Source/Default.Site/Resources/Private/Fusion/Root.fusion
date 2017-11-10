@@ -1,37 +1,37 @@
-namespace: Site=NeosCMS.Site
+namespace: Site=Default.Site
 include: Overwrite.fusion
 page = Neos.Neos:Page {
 	head {
 		stylesheets.site = Neos.Fusion:Template {
-			templatePath = 'resource://NeosCMS.Site/Private/Templates/Page/Default.html'
+			templatePath = 'resource://Default.Site/Private/Templates/Page/Default.html'
 			sectionName = 'stylesheets'
 		}
 
 		metadata = Neos.Fusion:Template  {
-			templatePath = 'resource://NeosCMS.Site/Private/Templates/Page/Default.html'
+			templatePath = 'resource://Default.Site/Private/Templates/Page/Default.html'
 			sectionName = 'metadata'
 		}
 
 		javascripts.site = Neos.Fusion:Template {
-			templatePath = 'resource://NeosCMS.Site/Private/Templates/Page/Default.html'
+			templatePath = 'resource://Default.Site/Private/Templates/Page/Default.html'
 			sectionName = 'headScripts'
 		}
 
 		backendStylesheets = Neos.Fusion:Template {
-			templatePath = 'resource://NeosCMS.Site/Private/Templates/Page/Default.html'
+			templatePath = 'resource://Default.Site/Private/Templates/Page/Default.html'
 			sectionName = 'backendStylesheets'
 			@process.1 = ${node.context.workspaceName != 'live' ? value : ''}
 		}
 
 		titleTag {
 			content = Neos.Fusion:Collection {
-				@process.siteName = ${q(node).property('title') + (nodeIterator.isLast ? '' : ' - NeosCMS')}
+				@process.siteName = ${q(node).property('title') + (nodeIterator.isLast ? '' : ' - Default')}
 			}
 		}
 	}
 
 	body {
-		templatePath = 'resource://NeosCMS.Site/Private/Templates/Page/Default.html'
+		templatePath = 'resource://Default.Site/Private/Templates/Page/Default.html'
 		sectionName = 'body'
 		parts {
 			menu = Menu
@@ -49,7 +49,7 @@ page = Neos.Neos:Page {
 		}
 
 		javascripts.site = Neos.Fusion:Template {
-			templatePath = 'resource://NeosCMS.Site/Private/Templates/Page/Default.html'
+			templatePath = 'resource://Default.Site/Private/Templates/Page/Default.html'
 			sectionName = 'bodyScripts'
 		}
 	}

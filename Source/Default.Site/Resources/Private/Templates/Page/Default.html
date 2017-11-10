@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+{namespace neos=Neos\Neos\ViewHelpers}
+{namespace fusion=Neos\Fusion\ViewHelpers}
+{namespace media=Neos\Media\ViewHelpers}
+<html>
+<head>
+	<f:section name="metadata">
+		<meta name="apple-mobile-web-app-title" content="Default">
+	</f:section>
+	<f:section name="stylesheets">
+		<link rel="stylesheet" href="{f:uri.resource(path: 'Styles/app.css', package: 'Default.Site')}" media="all" />
+	</f:section>
+	<f:section name="headScripts">
+
+	</f:section>
+	<f:section name="backendStylesheets">
+		<link rel="stylesheet" href="{f:uri.resource(path: 'Styles/backend.css', package: 'Default.Site')}" media="all" />
+	</f:section>
+</head>
+<body>
+<f:section name="body">
+	<header>
+		<div class="container">
+			<div class="row">
+				<a href="/" class="brand"><img src="{f:uri.resource(path: 'Images/Logo.png', package: 'Default.Site')}" alt="Default" /></a>
+				{parts.menu -> f:format.raw()}
+			</div>
+		</div>
+	</header>
+	<main>
+		{content.main -> f:format.raw()}
+	</main>
+	<footer>
+		{footer -> f:format.raw()}
+	</footer>
+</f:section>
+<f:section name="bodyScripts">
+	<script src="{f:uri.resource(path: 'JavaScript/app.js', package: 'Default.Site')}"></script>
+</f:section>
+</body>
+</html>

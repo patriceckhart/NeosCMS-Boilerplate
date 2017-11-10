@@ -6,7 +6,7 @@
 		"bin-dir": "bin"
 	},
 	"require": {
-		"neoscms/site": "1.0.x-dev"
+		"default/site": "1.0.x-dev"
 	},
 	"scripts": {
 		"post-update-cmd": "Neos\\Flow\\Composer\\InstallerScripts::postUpdateAndInstall",
@@ -17,7 +17,7 @@
 	"repositories": [
 		{
 			"type": "path",
-			"url": "Source/NeosCMS.Site"
+			"url": "Source/Default.Site"
 		}
 	]
 }

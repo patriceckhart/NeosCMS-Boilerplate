@@ -1,4 +1,4 @@
-'NeosCMS.Site:Homepage':
+'Default.Site:Homepage':
   ui:
     label: 'Homepage'
     icon: 'icon-globe'
