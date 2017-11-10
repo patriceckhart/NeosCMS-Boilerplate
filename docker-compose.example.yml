@@ -9,7 +9,7 @@ web:
     - /data
   environment:
     REPOSITORY_URL: 'https://github.com/patriceckhart/NeosCMS-Boilerplate'
-    SITE_PACKAGE: 'NeosCMS.Site'
+    SITE_PACKAGE: 'Default.Site'
     ADMIN_PASSWORD: 'yourpassphrase'
     IMPORT_GITHUB_PUB_KEYS: 'YOUR_GITHUB_USERNAME'
 
