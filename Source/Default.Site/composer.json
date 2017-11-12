@@ -3,8 +3,8 @@
     "description": "Neos Website",
     "type": "neos-site",
     "require": {
-        "neos/neos": "~3.2.0",
-        "neos/nodetypes": "*",
+        "neos/neos": "~3.2",
+        "neos/nodetypes": "~3.2",
         "neos/seo": "*",
         "neos/site-kickstarter": "~3.2.0",
         "neos/redirecthandler-neosadapter": "*",
