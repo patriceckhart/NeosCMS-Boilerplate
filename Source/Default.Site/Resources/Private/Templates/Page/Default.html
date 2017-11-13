@@ -20,10 +20,7 @@
 <body>
 <f:section name="body">
 	<header>
-		<div class="container">
-			<a href="/" class="brand"><img src="{f:uri.resource(path: 'Images/Logo.png', package: 'Default.Site')}" alt="Default" /></a>
-			{parts.menu -> f:format.raw()}
-		</div>
+		{parts.menu -> f:format.raw()}
 	</header>
 	<main>
 		{content.main -> f:format.raw()}
