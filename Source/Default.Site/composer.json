@@ -16,7 +16,8 @@
 
         "neos/swiftmailer": "6.0.0",
         "networkteam/neos-mailobfuscator": "2.0.0",
-        "neos/form-builder": "1.0.0"
+        "neos/form-builder": "1.0.0",
+        "flownative/neos-compressor": "*"
     },
     "autoload": {
         "psr-4": {
