@@ -2,13 +2,6 @@
     "name": "Default/site",
     "description": "Neos Website",
     "type": "neos-site",
-    "repositories": [
-        {
-            "name": "neosrulez/bootstrap",
-            "url": "https://github.com/patriceckhart/NeosRulez.Bootstrap.git",
-            "type": "git"
-        }
-    ],
     "require": {
         "neos/neos": "~3.2",
         "neos/nodetypes": "~3.2",
@@ -23,8 +16,7 @@
 
         "neos/swiftmailer": "6.0.0",
         "networkteam/neos-mailobfuscator": "2.0.0",
-        "neos/form-builder": "1.0.0",
-        "neosrulez/bootstrap": "*"
+        "neos/form-builder": "1.0.0"
     },
     "autoload": {
         "psr-4": {

@@ -6,7 +6,8 @@
 		"bin-dir": "bin"
 	},
 	"require": {
-		"default/site": "1.0.x-dev"
+		"default/site": "1.0.x-dev",
+		"neosrulez/bootstrap": "dev-master"
 	},
 	"scripts": {
 		"post-update-cmd": "Neos\\Flow\\Composer\\InstallerScripts::postUpdateAndInstall",
@@ -18,6 +19,11 @@
 		{
 			"type": "path",
 			"url": "Source/Default.Site"
-		}
+		},
+		{
+            "name": "neosrulez/bootstrap",
+            "url": "https://github.com/patriceckhart/NeosRulez.Bootstrap.git",
+            "type": "git"
+        }
 	]
 }
