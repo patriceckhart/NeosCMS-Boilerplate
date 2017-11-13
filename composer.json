@@ -6,7 +6,7 @@
 		"bin-dir": "bin"
 	},
 	"require": {
-		"neosrulez/bootstrap": "def-master",
+		"neosrulez/bootstrap": "dev-master",
 		"default/site": "1.0.x-dev"
 	},
 	"scripts": {
