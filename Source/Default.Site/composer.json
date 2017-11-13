@@ -6,8 +6,7 @@
         {
             "name": "neosrulez/bootstrap",
             "url": "https://github.com/patriceckhart/NeosRulez.Bootstrap.git",
-            "type": "git",
-            "version": "master"
+            "type": "git"
         }
     ],
     "require": {
