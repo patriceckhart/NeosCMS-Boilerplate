@@ -6,7 +6,8 @@
         {
             "name": "neosrulez/bootstrap",
             "url": "https://github.com/patriceckhart/NeosRulez.Bootstrap.git",
-            "type": "git"
+            "type": "git",
+            "version": "master"
         }
     ],
     "require": {
@@ -24,7 +25,7 @@
         "neos/swiftmailer": "6.0.0",
         "networkteam/neos-mailobfuscator": "2.0.0",
         "neos/form-builder": "1.0.0",
-        "neosrulez/bootstrap": "dev-master"
+        "neosrulez/bootstrap": "*"
     },
     "autoload": {
         "psr-4": {
