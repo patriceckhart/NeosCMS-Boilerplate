@@ -1,5 +1,5 @@
 {
-    "name": "Default/site",
+    "name": "Raw/site",
     "description": "Neos Website",
     "type": "neos-site",
     "require": {
