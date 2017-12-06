@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
- <site name="Site" state="1" siteResourcesPackageKey="Default.Site" siteNodeName="site">
+ <site name="Site" state="1" siteResourcesPackageKey="Raw.Site" siteNodeName="site">
   <nodes formatVersion="2.0">
    <node nodeName="site">
     <variant workspace="live" nodeType="Neos.NodeTypes:Page" sortingIndex="100" version="1" removed="" hidden="" hiddenInIndex="">

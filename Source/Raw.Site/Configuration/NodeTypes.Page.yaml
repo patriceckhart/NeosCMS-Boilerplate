@@ -1,4 +1,4 @@
-'Default.Site:Homepage':
+'Raw.Site:Homepage':
   ui:
     label: 'Homepage'
     icon: 'icon-globe'

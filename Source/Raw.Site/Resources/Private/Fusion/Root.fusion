@@ -1,24 +1,24 @@
-namespace: Site=Default.Site
+namespace: Site=Raw.Site
 include: Overwrite.fusion
 page = Neos.Neos:Page {
 	head {
 		stylesheets.site = Neos.Fusion:Template {
-			templatePath = 'resource://Default.Site/Private/Templates/Page/Default.html'
+			templatePath = 'resource://Raw.Site/Private/Templates/Page/Default.html'
 			sectionName = 'stylesheets'
 		}
 
 		metadata = Neos.Fusion:Template  {
-			templatePath = 'resource://Default.Site/Private/Templates/Page/Default.html'
+			templatePath = 'resource://Raw.Site/Private/Templates/Page/Default.html'
 			sectionName = 'metadata'
 		}
 
 		javascripts.site = Neos.Fusion:Template {
-			templatePath = 'resource://Default.Site/Private/Templates/Page/Default.html'
+			templatePath = 'resource://Raw.Site/Private/Templates/Page/Default.html'
 			sectionName = 'headScripts'
 		}
 
 		backendStylesheets = Neos.Fusion:Template {
-			templatePath = 'resource://Default.Site/Private/Templates/Page/Default.html'
+			templatePath = 'resource://Raw.Site/Private/Templates/Page/Default.html'
 			sectionName = 'backendStylesheets'
 			@process.1 = ${node.context.workspaceName != 'live' ? value : ''}
 		}
@@ -31,7 +31,7 @@ page = Neos.Neos:Page {
 	}
 
 	body {
-		templatePath = 'resource://Default.Site/Private/Templates/Page/Default.html'
+		templatePath = 'resource://Raw.Site/Private/Templates/Page/Default.html'
 		sectionName = 'body'
 		parts {
 			menu = Menu
@@ -49,7 +49,7 @@ page = Neos.Neos:Page {
 		}
 
 		javascripts.site = Neos.Fusion:Template {
-			templatePath = 'resource://Default.Site/Private/Templates/Page/Default.html'
+			templatePath = 'resource://Raw.Site/Private/Templates/Page/Default.html'
 			sectionName = 'bodyScripts'
 		}
 	}
