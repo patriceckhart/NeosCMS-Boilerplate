@@ -3,12 +3,15 @@
     "description": "Neos Website",
     "type": "neos-site",
     "require": {
-        "neos/neos": "~3.2",
-        "neos/nodetypes": "~3.2",
-        "neos/seo": "*",
-        "neos/site-kickstarter": "~3.2.0",
-        "neos/redirecthandler-neosadapter": "*",
-        "neos/redirecthandler-databasestorage": "*",
+        "neos/neos": "~3.3",
+        "neos/nodetypes": "~3.3",
+        "neos/seo": "~2.0",
+        "neos/site-kickstarter": "~3.3.0",
+        "neos/neos-ui": "~1.0",
+        "neos/neos-ui-compiled": "~1.0",
+
+        "neos/redirecthandler-neosadapter": "~2.0",
+        "neos/redirecthandler-databasestorage": "~2.0",
         "neos/googleanalytics": "^2.0",
 
         "opsdev/cache-breaker": "^3.0",
