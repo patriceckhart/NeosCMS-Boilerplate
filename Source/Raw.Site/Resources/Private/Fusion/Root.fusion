@@ -1,5 +1,4 @@
 namespace: Site=Raw.Site
-include: Overwrite.fusion
 page = Neos.Neos:Page {
 	head {
 		stylesheets.site = Neos.Fusion:Template {
