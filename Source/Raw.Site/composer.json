@@ -17,7 +17,6 @@
         "neos/redirecthandler-neosadapter": "~2.0",
         "neos/redirecthandler-databasestorage": "~2.0",
 
-        "neos/googleanalytics": "^2.0",
         "moc/notfound": "^3.1",
 
         "neos/swiftmailer": "^6.0",
