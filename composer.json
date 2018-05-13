@@ -6,7 +6,7 @@
 		"bin-dir": "bin"
 	},
 	"require": {
-		"raw/site": "1.0.x-dev"
+		"raw/site": "2.0.x-dev"
 	},
 	"scripts": {
 		"post-update-cmd": "Neos\\Flow\\Composer\\InstallerScripts::postUpdateAndInstall",
