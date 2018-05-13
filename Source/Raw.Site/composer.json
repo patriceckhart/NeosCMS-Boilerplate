@@ -3,9 +3,9 @@
     "description": "Neos Website",
     "type": "neos-site",
     "require": {
-        "neos/neos": "~4.0.*",
-        "neos/nodetypes": "~4.0.*",
-        "neos/site-kickstarter": "~4.0.*",
+        "neos/neos": "~4.0",
+        "neos/nodetypes": "~4.0",
+        "neos/site-kickstarter": "~4.0",
 
         "neos/neos-ui": "1.0.*@beta",
         "neos/neos-ui-compiled": "1.0.*@beta",
