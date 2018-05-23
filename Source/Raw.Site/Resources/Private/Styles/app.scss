@@ -1,0 +1,27 @@
+$primary: red;
+$secondary: blue;
+$dark: #333;
+$light: #CCC;
+
+::-moz-selection { background: $primary; text-shadow: none; color:#FFF; }
+::selection { background: $primary; text-shadow: none; color:#FFF; }
+
+body { color:$dark; }
+strong { }
+h1, h2, h3, h4, h5, h6 { color:$primary; }
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 576px) {
+
+}

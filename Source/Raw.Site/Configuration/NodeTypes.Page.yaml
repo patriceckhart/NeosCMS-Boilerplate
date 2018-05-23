@@ -8,3 +8,13 @@
     'footer':
       position: 'end'
       type: 'Neos.Neos:ContentCollection'
+'Raw.Site:404':
+  ui:
+    label: i18n
+    icon: 'icon-exclamation-triangle'
+    group: 'special'
+  superTypes:
+    'Neos.NodeTypes:Page': TRUE
+  constraints:
+    nodeTypes:
+      'Neos.NodeTypes:Page': FALSE

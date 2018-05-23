@@ -1,0 +1,13 @@
+'NeosRulez.Bootstrap:Container':
+  superTypes:
+    'Neos.Neos:Content': TRUE
+  childNodes:
+    contentItems:
+      type: 'Neos.Neos:ContentCollection'
+      constraints:
+        nodeTypes:
+          'Neos.NodeTypes:Menu': TRUE
+          'Neos.NodeTypes:Form': FALSE
+          'NeosRulez.Bootstrap:CardColumn': FALSE
+          'NeosRulez.Bootstrap:Card': FALSE
+          'Neos.NodeTypes:Column': FALSE

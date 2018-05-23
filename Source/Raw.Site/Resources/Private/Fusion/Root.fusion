@@ -24,7 +24,7 @@ page = Neos.Neos:Page {
 
 		titleTag {
 			content = Neos.Fusion:Collection {
-				@process.siteName = ${q(node).property('title') + (nodeIterator.isLast ? '' : ' - Default')}
+				@process.siteName = ${q(node).property('title') + (nodeIterator.isLast ? '' : ' - ') + Configuration.setting('Raw.Site.pageTitle')}
 			}
 		}
 	}

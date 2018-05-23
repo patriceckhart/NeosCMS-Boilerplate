@@ -1,0 +1,20 @@
+'Neos.NodeTypes.ColumnLayouts:Column':
+  superTypes:
+    'Neos.Neos:Content': TRUE
+  childNodes:
+    column0:
+      constraints:
+        nodeTypes:
+          'Neos.NodeTypes:Menu': TRUE
+    column1:
+      constraints:
+        nodeTypes:
+          'Neos.NodeTypes:Menu': TRUE
+    column2:
+      constraints:
+        nodeTypes:
+          'Neos.NodeTypes:Menu': TRUE
+    column3:
+      constraints:
+        nodeTypes:
+          'Neos.NodeTypes:Menu': TRUE

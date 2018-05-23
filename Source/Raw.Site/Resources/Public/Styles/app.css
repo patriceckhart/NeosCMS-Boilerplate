@@ -1,0 +1,17 @@
+::-moz-selection {
+  background: red;
+  text-shadow: none;
+  color: #FFF; }
+
+::selection {
+  background: red;
+  text-shadow: none;
+  color: #FFF; }
+
+body {
+  color: #333; }
+
+h1, h2, h3, h4, h5, h6 {
+  color: red; }
+
+/*# sourceMappingURL=app.css.map */

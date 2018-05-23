@@ -2,3 +2,6 @@ Neos:
   Neos:
     eventLog:
       enabled: TRUE
+Raw:
+  Site:
+    pageTitle: 'Default'
