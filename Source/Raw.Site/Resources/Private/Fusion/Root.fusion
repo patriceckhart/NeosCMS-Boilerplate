@@ -9,6 +9,7 @@ page = Neos.Neos:Page {
 		metadata = Neos.Fusion:Template  {
 			templatePath = 'resource://Raw.Site/Private/Templates/Page/Default.html'
 			sectionName = 'metadata'
+			pageTitle = ${Configuration.setting('Raw.Site.pageTitle')}
 		}
 
 		javascripts.site = Neos.Fusion:Template {
@@ -33,7 +34,8 @@ page = Neos.Neos:Page {
 		templatePath = 'resource://Raw.Site/Private/Templates/Page/Default.html'
 		sectionName = 'body'
 		parts {
-			menu = Menu
+			#menu = Menu
+			menu = NeosRulez.Bootstrap:MainMenu
 		}
 
 		content {
@@ -51,5 +53,23 @@ page = Neos.Neos:Page {
 			templatePath = 'resource://Raw.Site/Private/Templates/Page/Default.html'
 			sectionName = 'bodyScripts'
 		}
+
+		@process.replaceQuotationMarks1 = ${String.replace(value, '„', '"')}
+		@process.replaceQuotationMarks2 = ${String.replace(value, '“', '"')}
+
 	}
+
+	prototype(Neos.Neos:Page) {
+		FooterJs= Neos.Fusion:Tag {
+			@position = 'after NeosRulezBootstrapJs'
+			tagName = 'script'
+			attributes {
+				type = 'text/javascript'
+				src = Neos.Fusion:ResourceUri {
+					path = 'resource://Raw.Site/Public/JavaScript/app.min.js'
+				}
+			}
+		}
+	}
+
 }

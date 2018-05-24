@@ -12,7 +12,6 @@
 
         "neos/redirecthandler-neosadapter": "~2.0",
         "neos/redirecthandler-databasestorage": "~2.0",
-        "neos/googleanalytics": "^2.0",
 
         "opsdev/cache-breaker": "^3.0",
         "moc/notfound": "^3.1",

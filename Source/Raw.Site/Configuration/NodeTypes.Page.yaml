@@ -1,6 +1,6 @@
 'Raw.Site:Homepage':
   ui:
-    label: 'Homepage'
+    label: i18n
     icon: 'icon-globe'
   superTypes:
     'Neos.NodeTypes:Page': TRUE

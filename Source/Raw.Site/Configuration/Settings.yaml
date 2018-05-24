@@ -2,6 +2,33 @@ Neos:
   Neos:
     eventLog:
       enabled: TRUE
+    userInterface:
+      translation:
+        autoInclude:
+          Raw.Site:
+            - Main
+            - 'NodeTypes/*'
+      defaultLanguage: 'de'
+    nodeTypes:
+      groups:
+        special:
+          position: 'end'
+          label: Raw.Site:Main:nodeTypes.groups.special
+  GoogleAnalytics:
+    authentication:
+      applicationName: ''
+      clientId: ''
+      clientSecret: ''
+      developerKey: ''
+    sites:
+      site:
+        trackingId: ''
+        profileId: ''
 Raw:
   Site:
     pageTitle: 'Default'
+NeosRulez:
+  Bootstrap:
+    headerLogoPath: 'Images/Logo.png'
+    headerLogoPackage: 'Raw.Site'
+    headerLogoAltText: 'RawSite'

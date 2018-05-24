@@ -8,6 +8,6 @@
         nodeTypes:
           'Neos.NodeTypes:Menu': TRUE
           'Neos.NodeTypes:Form': FALSE
-          'NeosRulez.Bootstrap:CardColumn': FALSE
+          'NeosRulez.Bootstrap:CardColumn': TRUE
           'NeosRulez.Bootstrap:Card': FALSE
           'Neos.NodeTypes:Column': FALSE
