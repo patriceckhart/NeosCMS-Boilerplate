@@ -34,8 +34,8 @@ page = Neos.Neos:Page {
 		templatePath = 'resource://Raw.Site/Private/Templates/Page/Default.html'
 		sectionName = 'body'
 		parts {
-			#menu = Menu
-			menu = NeosRulez.Bootstrap:MainMenu
+			menu = Menu
+			#menu = NeosRulez.Bootstrap:MainMenu
 		}
 
 		content {

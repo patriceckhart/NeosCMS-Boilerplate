@@ -15,11 +15,13 @@
 
         "opsdev/cache-breaker": "^3.0",
         "moc/notfound": "^3.1",
+        "moc/synchronizeurl": "*",
 
         "neos/swiftmailer": "^6.0",
         "networkteam/neos-mailobfuscator": "2.0.0",
         "neos/form-builder": "^1.0",
-        "flownative/neos-compressor": "*"
+        "flownative/neos-compressor": "*",
+        "neosrulez/cookieconsent": "*"
     },
     "autoload": {
         "psr-4": {

@@ -14,16 +14,6 @@ Neos:
         special:
           position: 'end'
           label: Raw.Site:Main:nodeTypes.groups.special
-  GoogleAnalytics:
-    authentication:
-      applicationName: ''
-      clientId: ''
-      clientSecret: ''
-      developerKey: ''
-    sites:
-      site:
-        trackingId: ''
-        profileId: ''
 Raw:
   Site:
     pageTitle: 'Default'
