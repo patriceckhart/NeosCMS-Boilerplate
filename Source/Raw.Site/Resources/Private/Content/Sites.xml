@@ -2,28 +2,346 @@
 <root>
  <site name="Site" state="1" siteResourcesPackageKey="Raw.Site" siteNodeName="site">
   <nodes formatVersion="2.0">
-   <node nodeName="site">
-    <variant workspace="live" nodeType="Neos.NodeTypes:Page" sortingIndex="100" version="1" removed="" hidden="" hiddenInIndex="">
+   <node identifier="73dbc436-95f8-4bb4-b458-6cddb821cbf2" nodeName="site">
+    <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Page" version="1" removed="" hidden="" hiddenInIndex="">
      <dimensions>
-     
       <language>de_DE</language>
-     
      </dimensions>
      <accessRoles __type="array"/>
+     <creationDateTime __type="object" __classname="DateTime">2018-06-26T08:17:09+00:00</creationDateTime>
+     <lastModificationDateTime __type="object" __classname="DateTime">2018-06-26T08:17:09+00:00</lastModificationDateTime>
      <properties>
       <title __type="string">Home</title>
       <uriPathSegment __type="string">home</uriPathSegment>
      </properties>
     </variant>
-    <node nodeName="main">
-     <variant workspace="live" nodeType="Neos.Neos:ContentCollection" sortingIndex="100" version="1" removed="" hidden="" hiddenInIndex="">
+    <variant sortingIndex="100" workspace="live" nodeType="Raw.Site:Homepage" version="2" removed="" hidden="" hiddenInIndex="">
+     <dimensions/>
+     <accessRoles __type="array"/>
+     <creationDateTime __type="object" __classname="DateTime">2018-06-26T08:35:32+00:00</creationDateTime>
+     <lastModificationDateTime __type="object" __classname="DateTime">2018-06-26T08:35:34+00:00</lastModificationDateTime>
+     <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-26T08:35:33+00:00</lastPublicationDateTime>
+     <properties>
+      <title __type="string">Home</title>
+      <uriPathSegment __type="string">home</uriPathSegment>
+     </properties>
+    </variant>
+    <node identifier="c3c7ca75-a581-4459-9b4c-0176897f3e39" nodeName="footer">
+     <variant sortingIndex="200" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+      <dimensions/>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2018-06-26T08:35:32+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2018-06-26T08:35:34+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-26T08:35:33+00:00</lastPublicationDateTime>
+      <properties/>
+     </variant>
+     <node identifier="bacc62c9-b73e-4561-b8bd-d2d6785db20d" nodeName="node-9irk88zjrgvb6">
+      <variant sortingIndex="150" workspace="live" nodeType="NeosRulez.Bootstrap:Container" version="4" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>de</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-06-26T08:41:31+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-06-26T08:41:58+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-26T08:41:58+00:00</lastPublicationDateTime>
+       <properties>
+        <animation __type="string"></animation>
+        <delay __type="string">0</delay>
+        <valignment __type="string"></valignment>
+        <mt __type="string"></mt>
+        <mb __type="string"></mb>
+        <ml __type="string"></ml>
+        <mr __type="string"></mr>
+        <backgroundColor __type="string">#EBEBEB</backgroundColor>
+        <backgroundSize __type="string">cover</backgroundSize>
+        <backgroundPosition __type="string">center center</backgroundPosition>
+        <padding __type="boolean">1</padding>
+        <fluid __type="boolean"></fluid>
+        <textWhite __type="boolean"></textWhite>
+       </properties>
+      </variant>
+      <node identifier="ed458a0f-517d-1ce2-bda6-c26ca2dc7452" nodeName="contentitems">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>de</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2018-06-26T08:41:31+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2018-06-26T08:41:58+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-26T08:41:58+00:00</lastPublicationDateTime>
+        <properties/>
+       </variant>
+       <node identifier="a6bafe41-d1a8-488f-bac5-55cf1ed8628f" nodeName="node-scum61ysew4o4">
+        <variant sortingIndex="200" workspace="live" nodeType="Neos.NodeTypes:Text" version="5" removed="" hidden="" hiddenInIndex="">
+         <dimensions/>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2018-06-26T08:36:32+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2018-06-26T08:41:37+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-26T08:41:37+00:00</lastPublicationDateTime>
+         <properties>
+          <text __type="string">&lt;p&gt;Shared footer&lt;/p&gt;
+          </text>
+         </properties>
+        </variant>
+       </node>
+      </node>
+     </node>
+    </node>
+    <node identifier="df82c555-5f07-465c-a71a-f1fbc45841f0" nodeName="main">
+     <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
       <dimensions>
-      
        <language>de_DE</language>
-      
       </dimensions>
       <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2018-06-26T08:17:09+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2018-06-26T08:17:09+00:00</lastModificationDateTime>
+      <properties/>
      </variant>
+     <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+      <dimensions/>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2018-06-26T08:35:32+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2018-06-26T08:35:34+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-26T08:35:33+00:00</lastPublicationDateTime>
+      <properties/>
+     </variant>
+     <node identifier="2ee2650d-f90e-4f69-8af6-e974285e25a4" nodeName="node-pxlwcrk7u03dz">
+      <variant sortingIndex="150" workspace="live" nodeType="NeosRulez.Bootstrap:Container" version="4" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>de</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-06-26T08:41:20+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-06-27T19:20:29+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-27T19:20:29+00:00</lastPublicationDateTime>
+       <properties>
+        <animation __type="string"></animation>
+        <delay __type="string">0</delay>
+        <valignment __type="string"></valignment>
+        <mt __type="string"></mt>
+        <mb __type="string"></mb>
+        <ml __type="string"></ml>
+        <mr __type="string"></mr>
+        <backgroundColor __type="string"></backgroundColor>
+        <backgroundSize __type="string">cover</backgroundSize>
+        <backgroundPosition __type="string">center center</backgroundPosition>
+        <padding __type="boolean">1</padding>
+        <fluid __type="boolean"></fluid>
+        <textWhite __type="boolean"></textWhite>
+        <backgroundImage __type="string"></backgroundImage>
+       </properties>
+      </variant>
+      <node identifier="79c2b22b-2806-358d-1574-83108a1b6328" nodeName="contentitems">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>de</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2018-06-26T08:41:20+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2018-06-27T19:20:29+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-27T19:20:29+00:00</lastPublicationDateTime>
+        <properties/>
+       </variant>
+       <node identifier="812f0f5d-013d-4554-94b5-0df1d7e4793b" nodeName="node-je8alwp1t7g4k">
+        <variant sortingIndex="200" workspace="live" nodeType="Neos.NodeTypes:Text" version="5" removed="" hidden="" hiddenInIndex="">
+         <dimensions/>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2018-06-26T08:36:39+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2018-06-26T08:41:37+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-26T08:41:37+00:00</lastPublicationDateTime>
+         <properties>
+          <text __type="string">&lt;p&gt;Homepage&lt;/p&gt;
+          </text>
+         </properties>
+        </variant>
+       </node>
+      </node>
+     </node>
+    </node>
+    <node identifier="2135e120-bc48-428b-a11b-902a0f3f9ca6" nodeName="node-0bvfydc8lcgmu">
+     <variant sortingIndex="350" workspace="live" nodeType="Raw.Site:404" version="4" removed="" hidden="" hiddenInIndex="1">
+      <dimensions/>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2018-06-26T08:36:03+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2018-06-26T08:36:15+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-26T08:36:15+00:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">404</uriPathSegment>
+       <canonicalLink __type="string"></canonicalLink>
+       <title __type="string">Page not found</title>
+      </properties>
+     </variant>
+     <variant sortingIndex="350" workspace="live" nodeType="Raw.Site:404" version="4" removed="" hidden="" hiddenInIndex="1">
+      <dimensions>
+       <language>de</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2018-06-29T07:46:10+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2018-06-29T07:46:25+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-29T07:46:25+00:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">404</uriPathSegment>
+       <canonicalLink __type="string"></canonicalLink>
+       <title __type="string">Seite nicht gefunden</title>
+       <metaRobotsNoindex __type="boolean">1</metaRobotsNoindex>
+       <metaRobotsNofollow __type="boolean">1</metaRobotsNofollow>
+      </properties>
+     </variant>
+     <node identifier="55617e6d-b4da-bd0b-af07-562f113a43e1" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-06-26T08:36:03+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-06-26T08:36:15+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-26T08:36:15+00:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>de</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-06-29T07:46:10+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-06-29T07:46:25+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-29T07:46:25+00:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
+      <node identifier="9723de01-9955-4437-a11e-5df30c45f198" nodeName="node-o4lzq4ah2caoe">
+       <variant sortingIndex="100" workspace="live" nodeType="NeosRulez.Bootstrap:Container" version="2" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>de</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2018-06-27T15:26:55+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2018-06-27T15:27:23+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-27T15:27:23+00:00</lastPublicationDateTime>
+        <properties>
+         <animation __type="string"></animation>
+         <delay __type="string">0</delay>
+         <valignment __type="string"></valignment>
+         <mt __type="string"></mt>
+         <mb __type="string"></mb>
+         <ml __type="string"></ml>
+         <mr __type="string"></mr>
+         <backgroundColor __type="string"></backgroundColor>
+         <backgroundSize __type="string">cover</backgroundSize>
+         <backgroundPosition __type="string">center center</backgroundPosition>
+         <padding __type="boolean">1</padding>
+         <fluid __type="boolean"></fluid>
+         <textWhite __type="boolean"></textWhite>
+        </properties>
+       </variant>
+       <node identifier="030c4dda-b09a-8fd7-d38e-8ebff76f627d" nodeName="contentitems">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>de</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2018-06-27T15:26:55+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2018-06-27T15:27:23+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-27T15:27:23+00:00</lastPublicationDateTime>
+         <properties/>
+        </variant>
+        <node identifier="84682062-4e81-44d8-a471-64322daa6780" nodeName="node-wtzk3w3a7ypwl">
+         <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Text" version="6" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>de</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2018-06-27T15:27:14+00:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2018-06-27T15:27:23+00:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-27T15:27:23+00:00</lastPublicationDateTime>
+          <properties>
+           <animation __type="string"></animation>
+           <delay __type="string">0</delay>
+           <valignment __type="string"></valignment>
+           <mt __type="string"></mt>
+           <mb __type="string"></mb>
+           <ml __type="string"></ml>
+           <mr __type="string"></mr>
+           <text __type="string">&lt;p&gt;404. Page not found.&lt;/p&gt;
+           </text>
+          </properties>
+         </variant>
+        </node>
+       </node>
+      </node>
+     </node>
+    </node>
+    <node identifier="30a9a796-fdf7-4e64-b762-9dc1b6093743" nodeName="node-btn87xc20i6o3">
+     <variant sortingIndex="300" workspace="live" nodeType="Neos.NodeTypes:Page" version="4" removed="" hidden="" hiddenInIndex="">
+      <dimensions/>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2018-06-26T08:35:43+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2018-06-26T08:35:56+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-26T08:35:56+00:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">subpage</uriPathSegment>
+       <canonicalLink __type="string"></canonicalLink>
+       <title __type="string">Subpage</title>
+      </properties>
+     </variant>
+     <node identifier="1b75f605-ec77-56f7-be7c-a83e14b87911" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-06-26T08:35:43+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-06-26T08:35:56+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-26T08:35:56+00:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
+      <node identifier="82d1e2cd-aba6-4d89-a959-7e7346876080" nodeName="node-19rqxycyl9pmn">
+       <variant sortingIndex="150" workspace="live" nodeType="NeosRulez.Bootstrap:Container" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>de</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2018-06-27T15:27:30+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2018-06-27T15:27:38+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-27T15:27:38+00:00</lastPublicationDateTime>
+        <properties>
+         <animation __type="string"></animation>
+         <delay __type="string">0</delay>
+         <valignment __type="string"></valignment>
+         <mt __type="string"></mt>
+         <mb __type="string"></mb>
+         <ml __type="string"></ml>
+         <mr __type="string"></mr>
+         <backgroundColor __type="string"></backgroundColor>
+         <backgroundSize __type="string">cover</backgroundSize>
+         <backgroundPosition __type="string">center center</backgroundPosition>
+         <padding __type="boolean">1</padding>
+         <fluid __type="boolean"></fluid>
+         <textWhite __type="boolean"></textWhite>
+        </properties>
+       </variant>
+       <node identifier="c2db4eac-a63b-6c3d-5f3d-709fa7362d9c" nodeName="contentitems">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>de</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2018-06-27T15:27:31+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2018-06-27T15:27:38+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-27T15:27:38+00:00</lastPublicationDateTime>
+         <properties/>
+        </variant>
+        <node identifier="e87166cb-2a74-45e2-a67e-3bae7c97cf46" nodeName="node-jor5x4bnmdbgo">
+         <variant sortingIndex="200" workspace="live" nodeType="Neos.NodeTypes:Text" version="5" removed="" hidden="" hiddenInIndex="">
+          <dimensions/>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2018-06-26T08:36:46+00:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2018-06-27T15:27:38+00:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-27T15:27:38+00:00</lastPublicationDateTime>
+          <properties>
+           <text __type="string">&lt;p&gt;Subpage&lt;/p&gt;
+           </text>
+          </properties>
+         </variant>
+        </node>
+       </node>
+      </node>
+     </node>
     </node>
    </node>
   </nodes>

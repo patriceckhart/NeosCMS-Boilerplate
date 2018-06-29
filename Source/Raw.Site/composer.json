@@ -21,6 +21,7 @@
         "networkteam/neos-mailobfuscator": "2.0.0",
         "neos/form-builder": "^1.0",
         "flownative/neos-compressor": "*",
+        "neosrulez/bootstrap": "1.9",
         "neosrulez/cookieconsent": "*"
     },
     "autoload": {
