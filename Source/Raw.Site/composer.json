@@ -1,6 +1,6 @@
 {
     "name": "Raw/site",
-    "description": "Neos Website",
+    "description": "Neos CMS Website",
     "type": "neos-site",
     "require": {
         "neos/neos": "~3.3",
