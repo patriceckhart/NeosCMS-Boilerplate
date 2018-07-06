@@ -13,6 +13,7 @@
         "neos/neos-ui": "~1.1.0",
         "neos/neos-ui-compiled": "~1.1.0",
 
+
         "opsdev/cache-breaker": "^3.0",
         "moc/notfound": "^3.1",
         "moc/synchronizeurl": "*",
