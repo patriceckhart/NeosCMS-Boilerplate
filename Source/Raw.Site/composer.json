@@ -5,16 +5,14 @@
     "require": {
         "neos/neos": "~4.0.0",
         "neos/nodetypes": "~4.0.0",
-        "neos/site-kickstarter": "~4.0.0",
         "neos/seo": "~2.0",
         "neos/setup": "~4.0",
+        "neos/site-kickstarter": "~4.0.0",
         "neos/redirecthandler-neosadapter": "~2.0",
         "neos/redirecthandler-databasestorage": "~2.0",
-        "neos/neos-ui": "~1.1.0",
-        "neos/neos-ui-compiled": "~1.1.0",
-
-
-        "opsdev/cache-breaker": "^3.0",
+        "neos/neos-ui": "1.1.0",
+        "neos/neos-ui-compiled": "1.1.*",
+        
         "moc/notfound": "^3.1",
         "moc/synchronizeurl": "*",
 
@@ -22,7 +20,7 @@
         "networkteam/neos-mailobfuscator": "2.1.0",
         "neos/form-builder": "^1.0",
         "flownative/neos-compressor": "*",
-        "neosrulez/bootstrap": "1.9",
+        "neosrulez/bootstrap": "2.0",
         "neosrulez/cookieconsent": "*"
     },
     "autoload": {
