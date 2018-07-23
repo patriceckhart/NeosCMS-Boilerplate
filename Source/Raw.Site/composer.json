@@ -7,7 +7,6 @@
         "neos/nodetypes": "~4.0.0",
         "neos/seo": "~2.0",
         "neos/setup": "~4.0",
-        "neos/site-kickstarter": "~4.0.0",
         "neos/redirecthandler-neosadapter": "~2.0",
         "neos/redirecthandler-databasestorage": "~2.0",
         "neos/neos-ui": "1.1.0",
