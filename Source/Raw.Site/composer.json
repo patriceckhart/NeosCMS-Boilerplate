@@ -3,23 +3,23 @@
     "description": "Neos CMS Website",
     "type": "neos-site",
     "require": {
-        "neos/neos": "~4.0.0",
-        "neos/nodetypes": "~4.0.0",
-        "neos/seo": "~2.0",
-        "neos/setup": "~4.0",
-        "neos/redirecthandler-neosadapter": "~2.0",
-        "neos/redirecthandler-databasestorage": "~2.0",
-        "neos/neos-ui": "1.1.0",
-        "neos/neos-ui-compiled": "1.1.*",
+        "neos/neos": "~4.1.0",
+        "neos/nodetypes": "~4.1.0",
+        "neos/seo": "*",
+        "neos/setup": "*",
+        "neos/redirecthandler-neosadapter": "*",
+        "neos/redirecthandler-databasestorage": "*",
+        "neos/neos-ui": "*",
+        "neos/neos-ui-compiled": "*",
         
         "moc/notfound": "^3.1",
         "moc/synchronizeurl": "*",
 
         "neos/swiftmailer": "^6.0",
         "networkteam/neos-mailobfuscator": "2.1.0",
-        "neos/form-builder": "^1.0",
+        "neos/form-builder": "1.0.*",
         "flownative/neos-compressor": "*",
-        "neosrulez/bootstrap": "2.1",
+        "neosrulez/bootstrap": "2.2",
         "neosrulez/cookieconsent": "*"
     },
     "autoload": {
