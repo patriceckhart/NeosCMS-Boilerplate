@@ -19,7 +19,7 @@
         "networkteam/neos-mailobfuscator": "2.1.0",
         "neos/form-builder": "1.0.*",
         "flownative/neos-compressor": "*",
-        "neosrulez/bootstrap": "2.2",
+        "neosrulez/bootstrap": "2.3",
         "neosrulez/cookieconsent": "*"
     },
     "autoload": {
@@ -29,7 +29,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "2.0.x-dev"
+            "dev-master": "2.1.x-dev"
         },
         "neos": {
             "package-key": "Raw.Site"
