@@ -20,7 +20,8 @@
         "neos/form-builder": "1.1.*",
         "flownative/neos-compressor": "*",
         "neosrulez/bootstrap": "2.3",
-        "neosrulez/cookieconsent": "*"
+        "neosrulez/cookieconsent": "*",
+        "neosrulez/scssparser": "*"
     },
     "autoload": {
         "psr-4": {
