@@ -5,6 +5,8 @@
 		"vendor-dir": "Packages/Libraries",
 		"bin-dir": "bin"
 	},
+	"minimum-stability": "dev",
+	"prefer-stable": true,
 	"require": {
 		"raw/site": "2.2.x-dev"
 	},
