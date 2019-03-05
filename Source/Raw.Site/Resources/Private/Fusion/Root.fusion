@@ -1,8 +1,12 @@
 prototype(Neos.NodeTypes:Page) < prototype(Neos.Neos:Page) {
     head {
-        stylesheets.site = Neos.Fusion:Template {
-            templatePath = 'resource://Raw.Site/Private/Templates/Page/Default.html'
-            sectionName = 'stylesheets'
+
+        appCss = NeosRulez.ScssParser:ScssFile
+        appCss {
+            source = 'resource://Raw.Site/Private/Styles/app.scss'
+            inline = FALSE
+            format = 'compressed'
+            outputFolder = 'resource://Raw.Site/Public/Styles/'
         }
 
         metadata = Neos.Fusion:Template {
