@@ -14,11 +14,6 @@ prototype(Neos.NodeTypes:Page) < prototype(Neos.Neos:Page) {
             sectionName = 'metadata'
         }
 
-        javascripts.site = Neos.Fusion:Template {
-            templatePath = 'resource://Raw.Site/Private/Templates/Page/Default.html'
-            sectionName = 'headScripts'
-        }
-
         backendStylesheets = Neos.Fusion:Template {
             templatePath = 'resource://Raw.Site/Private/Templates/Page/Default.html'
             sectionName = 'backendStylesheets'
@@ -32,7 +27,7 @@ prototype(Neos.NodeTypes:Page) < prototype(Neos.Neos:Page) {
         }
     }
 
-	bodyTag.attributes.class = ${q(node).parents().count() >= 1 && q(node).children('[instanceof Neos.Neos:Document]').filter('[_hiddenInIndex=false]').count() > 0 ? 'has-subpages' : ''}
+    bodyTag.attributes.class = ${q(node).parents().count() >= 1 && q(node).children('[instanceof Neos.Neos:Document]').filter('[_hiddenInIndex=false]').count() > 0 ? 'has-subpages' : ''}
 
     body {
         templatePath = 'resource://Raw.Site/Private/Templates/Page/Default.html'
@@ -43,12 +38,12 @@ prototype(Neos.NodeTypes:Page) < prototype(Neos.Neos:Page) {
         }
 
         content {
-			main = Neos.Neos:PrimaryContent {
+            main = Neos.Neos:PrimaryContent {
                 nodePath = 'main'
             }
         }
 
-		footer = Neos.Neos:ContentCollection {
+        footer = Neos.Neos:ContentCollection {
             nodePath = ${q(site).children('footer').property('_path')}
             collection = ${q(site).children('footer').children()}
         }
@@ -62,17 +57,12 @@ prototype(Neos.NodeTypes:Page) < prototype(Neos.Neos:Page) {
         @process.replaceQuotationMarks2 = ${String.replace(value, '“', '"')}
     }
 
-    prototype(Neos.Neos:Page) {
-        FooterJs= Neos.Fusion:Tag {
-            @position = 'after NeosRulezBootstrapJs'
-            tagName = 'script'
-            attributes {
-                type = 'text/javascript'
-                src = Neos.Fusion:ResourceUri {
-                    path = 'resource://Raw.Site/Public/JavaScript/app.min.js'
-                }
-            }
-        }
+    appJs = NeosRulez.JsMinifier:JsFile
+    appJs {
+        @position = 'after NeosRulezBootstrapJs'
+        source = 'resource://Raw.Site/Private/JavaScript/app.js'
+        inline = FALSE
+        outputFolder = 'resource://Raw.Site/Public/JavaScript/'
     }
 }
 

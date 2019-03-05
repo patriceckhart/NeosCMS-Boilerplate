@@ -21,7 +21,8 @@
         "flownative/neos-compressor": "*",
         "neosrulez/bootstrap": "2.3",
         "neosrulez/cookieconsent": "*",
-        "neosrulze/scssparser": "*"
+        "neosrulze/scssparser": "*",
+        "neosrulze/jsminifier": "*"
     },
     "autoload": {
         "psr-4": {
