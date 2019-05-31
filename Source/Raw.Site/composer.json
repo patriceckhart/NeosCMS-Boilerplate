@@ -3,8 +3,8 @@
     "description": "Neos CMS Website",
     "type": "neos-site",
     "require": {
-        "neos/neos": "~4.2.0",
-        "neos/nodetypes": "~4.2.0",
+        "neos/neos": "~4.3.0",
+        "neos/nodetypes": "~4.3.0",
         "neos/seo": "*",
         "neos/setup": "*",
         "neos/redirecthandler-neosadapter": "*",
@@ -16,7 +16,7 @@
         "moc/synchronizeurl": "*",
 
         "neos/swiftmailer": "^6.0",
-        "networkteam/neos-mailobfuscator": "2.2.0",
+        "networkteam/neos-mailobfuscator": "2.2.1",
         "neos/form-builder": "1.1.*",
         "flownative/neos-compressor": "*",
         "neosrulez/bootstrap": "2.3",
@@ -31,7 +31,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "2.2.x-dev"
+            "dev-master": "2.3.x-dev"
         },
         "neos": {
             "package-key": "Raw.Site"
