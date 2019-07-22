@@ -3,26 +3,32 @@ if( p === 'iPad' || p === 'iPhone' || p === 'iPod' ){
     iOS = true;
 }
 
-function doAll() {
-    winwidth = $(window).width();
-    var $win = $(window).scroll(function() {
-        if (winwidth>992) {
-            if ($win.scrollTop() > 140) {
+function resize() {
+    winWidth = $(window).width();
+    winHeight = $(window).width();
 
-            } else {
-                
-            }
+    $(window).scroll(function() {
+        var scrollPos = $(document).scrollTop();
+        if (scrollPos >= 300) {
+
+        } else {
+
         }
     });
 }
 
 $(document).ready(function(){
-    doAll();
+
+    /*$('#toggle').click(function(){
+        $(this).toggleClass('open');
+    });*/
+
+    resize();
 });
 
 if (iOS == true) {
 } else {
     $(window).resize(function() {
-        doAll();
+        resize();
     });
 }

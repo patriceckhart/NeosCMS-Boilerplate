@@ -16,7 +16,8 @@ Neos:
           label: Raw.Site:Main:nodeTypes.groups.special
 Raw:
   Site:
-    pageTitle: 'Default'
+    pageTitle: 'Raw Site'
+    googleAnalytics: 'UA-xx1234'
 NeosRulez:
   Bootstrap:
     headerLogoPath: 'Images/Logo.png'

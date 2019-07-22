@@ -50,6 +50,7 @@ prototype(Neos.NodeTypes:Page) < prototype(Neos.Neos:Page) {
 
         javascripts.site = Neos.Fusion:Template {
             templatePath = 'resource://Raw.Site/Private/Templates/Page/Default.html'
+            googleAnalytics = ${Configuration.setting('Raw.Site.googleAnalytics')}
             sectionName = 'bodyScripts'
         }
 

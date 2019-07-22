@@ -3,12 +3,15 @@ $secondary: blue;
 $dark: #333;
 $light: #CCC;
 
+@mixin transition($property) { transition: all $property; -webkit-transition: all $property; -moz-transition: all $property; }
+@mixin scale($propertyScale) { -webkit-transform: scale($propertyScale); -moz-transform: scale($propertyScale); -ms-transform: scale($propertyScale); -o-transform: scale($propertyScale); transform: scale($propertyScale); }
+
 ::-moz-selection { background: $primary; text-shadow: none; color:#FFF; }
 ::selection { background: $primary; text-shadow: none; color:#FFF; }
 
-body { color:$dark; }
+body { color:$dark; -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale; }
 strong { }
-h1, h2, h3, h4, h5, h6 { color:$primary; }
+h1, h2, h3, h4, h5, h6 { }
 
 @media (max-width: 1200px) {
 

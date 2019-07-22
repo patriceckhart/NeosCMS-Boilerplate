@@ -19,10 +19,8 @@
         "networkteam/neos-mailobfuscator": "2.2.1",
         "neos/form-builder": "1.1.*",
         "flownative/neos-compressor": "*",
-        "neosrulez/bootstrap": "2.3",
-        "neosrulez/cookieconsent": "*",
-        "neosrulez/scssparser": "*",
-        "neosrulez/jsminifier": "*"
+        "neosrulez/bootstrap": "2.4",
+        "neosrulez/cookieconsent": "*"
     },
     "autoload": {
         "psr-4": {
@@ -31,7 +29,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "2.3.x-dev"
+            "dev-master": "2.4.x-dev"
         },
         "neos": {
             "package-key": "Raw.Site"
