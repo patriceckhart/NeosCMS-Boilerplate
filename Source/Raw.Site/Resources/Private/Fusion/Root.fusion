@@ -1,6 +1,12 @@
 prototype(Neos.NodeTypes:Page) < prototype(Neos.Neos:Page) {
     head {
 
+        #gFont = Neos.Fusion:Renderer {
+            #@position = 'before stylesheets'
+            #type = 'Neos.Fusion:Value'
+            #element.value = '<link href="https://fonts.googleapis.com/css?family=Montserrat:300,700&display=swap" rel="stylesheet">'
+        #}
+
         appCss = NeosRulez.ScssParser:ScssFile
         appCss {
             source = 'resource://Raw.Site/Private/Styles/app.scss'
@@ -20,10 +26,9 @@ prototype(Neos.NodeTypes:Page) < prototype(Neos.Neos:Page) {
             @process.1 = ${node.context.workspaceName != 'live' ? value : ''}
         }
 
-        titleTag {
-            content = Neos.Fusion:Collection {
-                @process.siteName = ${q(node).property('title') + (nodeIterator.isLast ? '' : ' - ') + Configuration.setting('Raw.Site.pageTitle')}
-            }
+        titleTag = Neos.Fusion:Tag {
+            tagName = 'title'
+            content = ${q(node).property('title') + (nodeIterator.isLast ? '' : ' - ') + Configuration.setting('Raw.Site.pageTitle')}
         }
     }
 
