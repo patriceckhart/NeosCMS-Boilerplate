@@ -20,7 +20,7 @@
         "neos/form-builder": "1.1.*",
         "flownative/neos-compressor": "*",
         "neosrulez/bootstrap": "2.4",
-        "neosrulez/cookieconsent": "*"
+        "neosrulez/cookieoptin": "1.0"
     },
     "autoload": {
         "psr-4": {
@@ -29,7 +29,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "2.4.x-dev"
+            "dev-master": "2.5.x-dev"
         },
         "neos": {
             "package-key": "Raw.Site"
