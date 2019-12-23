@@ -4,6 +4,7 @@
     "type": "neos-site",
     "require": {
         "neos/neos": "^5.0",
+        "neos/site-kickstarter": "~5.0.0",
         "neos/nodetypes": "^5.0",
         "neos/seo": "*",
         "neos/setup": "^4.1",
