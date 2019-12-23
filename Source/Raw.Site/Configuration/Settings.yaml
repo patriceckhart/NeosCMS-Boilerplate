@@ -14,12 +14,25 @@ Neos:
         special:
           position: 'end'
           label: Raw.Site:Main:nodeTypes.groups.special
+        custom:
+          position: 'end'
+          label: Raw.Site:Main:nodeTypes.groups.custom
 Raw:
   Site:
     pageTitle: 'Raw Site'
-    googleAnalytics: 'UA-xx1234'
 NeosRulez:
   Bootstrap:
     headerLogoPath: 'Images/Logo.png'
     headerLogoPackage: 'Raw.Site'
     headerLogoAltText: 'RawSite'
+    colors:
+      primary: '#007bff'
+      secondary: '#6c757d'
+      success: '#28a745'
+      danger: '#dc3545'
+      warning: '#d39e00'
+      info: '#17a2b8'
+      light: '#f8f9fa'
+      dark: '#343a40'
+      muted: '#6c757d'
+      white: '#fff'

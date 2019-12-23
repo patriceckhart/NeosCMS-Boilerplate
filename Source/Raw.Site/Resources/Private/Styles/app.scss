@@ -1,7 +1,4 @@
-$primary: red;
-$secondary: blue;
-$dark: #333;
-$light: #CCC;
+@import "../../../../../Packages/Plugins/NeosRulez.Bootstrap/Resources/Private/Styles/theme";
 
 @mixin transition($property) { transition: all $property; -webkit-transition: all $property; -moz-transition: all $property; }
 @mixin scale($propertyScale) { -webkit-transform: scale($propertyScale); -moz-transform: scale($propertyScale); -ms-transform: scale($propertyScale); -o-transform: scale($propertyScale); transform: scale($propertyScale); }
@@ -9,16 +6,58 @@ $light: #CCC;
 ::-moz-selection { background: $primary; text-shadow: none; color:#FFF; }
 ::selection { background: $primary; text-shadow: none; color:#FFF; }
 
-body { color:$dark; -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale; }
+body { -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale; }
 strong { }
 h1, h2, h3, h4, h5, h6 { }
+
+button:active, button:focus, a:active, a:focus, .btn-info:active, .btn-info:focus, .btn-primary:active, .btn-primary:focus, .btn-secondary:active, .btn-secondary:focus, .form-control:focus { outline: none !important; box-shadow: none !important; }
+
+#toggle { display:none; float:right; width:2em; height:15px; position:relative; z-index:999; display:none;
+  span { float:left; position:absolute; left:0; top:0; transform: rotate(0deg); width:100%; height:2px; background:$primary; margin-top:2px; margin-bottom:2px; transition: all 0.2s; -webkit-transition: all 0.2s; -moz-transition: all 0.2s;
+    &:nth-child(1) { top:0; }
+    &:nth-child(2) { top:4px; }
+    &:nth-child(3) { top:8px; }
+  }
+  &:hover { cursor: pointer; }
+  &.open span {
+    &:nth-child(1) { display:none; }
+    &:nth-child(2) { transform: rotate(45deg); top:5px; }
+    &:nth-child(3) { transform: rotate(-45deg); top:5px; }
+  }
+}
+
+.carousel { display:none; width:100%; }
+.slick-carousel-inner { display:none; margin-top:-1em; width:100%;
+  img { width:100%; height:auto; }
+  .carousel-caption { margin-bottom:4em;
+    h3 { font-size:3.5em; color:#FFF;
+      -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=10, Direction=0, Color=#000000)";/*IE 8*/
+      text-shadow: 0 0 10px rgba(0,0,0,0.5);/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+      filter: progid:DXImageTransform.Microsoft.Shadow(Strength=10, Direction=135, Color=#000000); /*IE 5.5-7*/
+    }
+  }
+  .slick-dots { display:block; margin:0; padding:0; position: relative; width:100%; text-align:center; margin-top: -2.7em; margin-bottom:1em;
+    li { display:inline-block; margin:0; padding:0; margin-left:0.2em; margin-right:0.2em; background:none; border:1px solid $primary; width:1em; height:1em; text-indent: -99999px; border-radius:999px; @include transition(0.2s); cursor: pointer;
+      &:hover { @include scale(1.2); background:$primary; border:1px solid $primary; }
+    }
+    li.slick-active { background:$primary; border:1px solid $primary; @include scale(0.8); }
+  }
+  .slick-arrow { color:#CCC; font-size:2em; top:50%; position:absolute; margin-top: -0.7em; cursor: pointer; @include transition(0.2s); z-index:98;
+    background:none; border:0; outline:0; @include transition(0.2s);
+    &:hover { color:$primary; }
+  }
+  .slick-prev { left:0; margin-left:2em; }
+  .slick-next { right:0; margin-right:2em; }
+}
+
+.neosrulez-cookieoptin-revoke { margin-right:1em; }
 
 @media (max-width: 1200px) {
 
 }
 
 @media (max-width: 992px) {
-
+  #toggle { display:block; }
 }
 
 @media (max-width: 768px) {
@@ -28,3 +67,4 @@ h1, h2, h3, h4, h5, h6 { }
 @media (max-width: 576px) {
 
 }
+

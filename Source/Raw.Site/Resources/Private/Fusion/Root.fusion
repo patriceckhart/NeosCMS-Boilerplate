@@ -1,3 +1,4 @@
+include: NodeTypes/*
 prototype(Neos.NodeTypes:Page) < prototype(Neos.Neos:Page) {
     head {
 
@@ -6,6 +7,14 @@ prototype(Neos.NodeTypes:Page) < prototype(Neos.Neos:Page) {
             #type = 'Neos.Fusion:Value'
             #element.value = '<link href="https://fonts.googleapis.com/css?family=Montserrat:300,700&display=swap" rel="stylesheet">'
         #}
+
+        slickCss = NeosRulez.ScssParser:ScssFile
+        slickCss {
+            source = 'resource://Raw.Site/Private/Styles/slick.scss'
+            inline = FALSE
+            format = 'compressed'
+            outputFolder = 'resource://Raw.Site/Public/Styles/'
+        }
 
         appCss = NeosRulez.ScssParser:ScssFile
         appCss {
@@ -39,7 +48,9 @@ prototype(Neos.NodeTypes:Page) < prototype(Neos.Neos:Page) {
         sectionName = 'body'
 
         parts {
-            menu = NeosRulez.Bootstrap:MainMenu
+            menu = NeosRulez.Bootstrap:MainMenu {
+                templatePath = 'resource://Raw.Site/Private/Templates/NodeTypes/MainMenu.html'
+            }
         }
 
         content {
@@ -55,12 +66,19 @@ prototype(Neos.NodeTypes:Page) < prototype(Neos.Neos:Page) {
 
         javascripts.site = Neos.Fusion:Template {
             templatePath = 'resource://Raw.Site/Private/Templates/Page/Default.html'
-            googleAnalytics = ${Configuration.setting('Raw.Site.googleAnalytics')}
             sectionName = 'bodyScripts'
         }
 
         @process.replaceQuotationMarks1 = ${String.replace(value, '„', '"')}
         @process.replaceQuotationMarks2 = ${String.replace(value, '“', '"')}
+    }
+
+    slickJs = NeosRulez.JsMinifier:JsFile
+    slickJs {
+        @position = 'after NeosRulezBootstrapJs'
+        source = 'resource://Raw.Site/Private/JavaScript/slick.js'
+        inline = FALSE
+        outputFolder = 'resource://Raw.Site/Public/JavaScript/'
     }
 
     appJs = NeosRulez.JsMinifier:JsFile

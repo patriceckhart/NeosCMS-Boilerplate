@@ -7,7 +7,8 @@
       constraints:
         nodeTypes:
           'Neos.NodeTypes:Menu': TRUE
-          'Neos.NodeTypes:Form': FALSE
-          'NeosRulez.Bootstrap:CardColumn': TRUE
-          'NeosRulez.Bootstrap:Card': FALSE
+          'Neos.NodeTypes.Form:Form': FALSE
+          'NeosRulez.Bootstrap:CardColumn': FALSE
+          'NeosRulez.Bootstrap:Card': TRUE
           'Neos.NodeTypes:Column': FALSE
+          'Raw.Site:SlickCarouselItem': FALSE
