@@ -3,9 +3,9 @@
     "description": "Neos CMS Website",
     "type": "neos-site",
     "require": {
-        "neos/neos": "^5.0",
-        "neos/site-kickstarter": "~5.0.0",
-        "neos/nodetypes": "^5.0",
+        "neos/neos": "^5.1",
+        "neos/site-kickstarter": "~5.1.0",
+        "neos/nodetypes": "^5.1",
         "neos/seo": "*",
         "neos/setup": "^4.1",
         "neos/neos-setup": "^1.0",
@@ -13,7 +13,7 @@
         "neos/redirecthandler-databasestorage": "*",
         "neos/neos-ui": "*",
         "neos/neos-ui-compiled": "*",
-        
+
         "moc/notfound": "*",
         "moc/synchronizeurl": "*",
 
