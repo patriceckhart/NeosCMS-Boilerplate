@@ -21,7 +21,7 @@
         "networkteam/neos-mailobfuscator": "*",
         "neos/form-builder": "*",
         "flownative/neos-compressor": "*",
-        "neosrulez/bootstrap": "2.7"
+        "neosrulez/bootstrap": "2.8"
     },
     "autoload": {
         "psr-4": {
