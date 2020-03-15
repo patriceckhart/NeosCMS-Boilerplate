@@ -1,3 +1,8 @@
+'Neos.NodeTypes:Page':
+  constraints:
+    nodeTypes:
+      'Raw.Site:Homepage': FALSE
+      'Raw.Site:404': FALSE
 'Raw.Site:Homepage':
   ui:
     label: i18n
@@ -8,17 +13,18 @@
     'footer':
       position: 'end'
       type: 'Neos.Neos:ContentCollection'
-      constraints:
-        nodeTypes:
-          '*': FALSE
-          'NeosRulez.Bootstrap:Container': TRUE
   constraints:
     nodeTypes:
       'Raw.Site:Homepage': FALSE
+      'Raw.Site:404': TRUE
 'Raw.Site:404':
   ui:
     label: i18n
     icon: 'icon-exclamation-triangle'
-    group: 'special'
+    position: 'end'
   superTypes:
     'Neos.NodeTypes:Page': TRUE
+  constraints:
+    nodeTypes:
+      'Neos.NodeTypes:Page': FALSE
+      'Neos.Neos:Shortcut': FALSE

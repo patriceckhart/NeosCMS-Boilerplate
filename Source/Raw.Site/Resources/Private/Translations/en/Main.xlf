@@ -3,7 +3,7 @@
     <file original="" product-name="Raw.Site" source-language="en" datatype="plaintext">
         <body>
             <trans-unit id="nodeTypes.groups.custom" xml:space="preserve">
-				<source>Custom content elements</source>
+				<source>Custom</source>
 			</trans-unit>
         </body>
     </file>
