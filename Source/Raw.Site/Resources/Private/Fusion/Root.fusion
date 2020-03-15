@@ -2,19 +2,13 @@ include: NodeTypes/*
 prototype(Neos.NodeTypes:Page) < prototype(Neos.Neos:Page) {
     head {
 
-        #gFont = Neos.Fusion:Renderer {
-            #@position = 'before stylesheets'
-            #type = 'Neos.Fusion:Value'
-            #element.value = '<link href="https://fonts.googleapis.com/css?family=Montserrat:300,700&display=swap" rel="stylesheet">'
+        #slickCss = NeosRulez.ScssParser:ScssFile
+        #slickCss {
+            #source = 'resource://Raw.Site/Private/Styles/slick.scss'
+            #inline = FALSE
+            #format = 'compressed'
+            #outputFolder = 'resource://Raw.Site/Public/Styles/'
         #}
-
-        slickCss = NeosRulez.ScssParser:ScssFile
-        slickCss {
-            source = 'resource://Raw.Site/Private/Styles/slick.scss'
-            inline = FALSE
-            format = 'compressed'
-            outputFolder = 'resource://Raw.Site/Public/Styles/'
-        }
 
         appCss = NeosRulez.ScssParser:ScssFile
         appCss {
@@ -73,13 +67,13 @@ prototype(Neos.NodeTypes:Page) < prototype(Neos.Neos:Page) {
         @process.replaceQuotationMarks2 = ${String.replace(value, '“', '"')}
     }
 
-    slickJs = NeosRulez.JsMinifier:JsFile
-    slickJs {
-        @position = 'after NeosRulezBootstrapJs'
-        source = 'resource://Raw.Site/Private/JavaScript/slick.js'
-        inline = FALSE
-        outputFolder = 'resource://Raw.Site/Public/JavaScript/'
-    }
+    #slickJs = NeosRulez.JsMinifier:JsFile
+    #slickJs {
+        #@position = 'after NeosRulezBootstrapJs'
+        #source = 'resource://Raw.Site/Private/JavaScript/slick.js'
+        #inline = FALSE
+        #outputFolder = 'resource://Raw.Site/Public/JavaScript/'
+    #}
 
     appJs = NeosRulez.JsMinifier:JsFile
     appJs {
