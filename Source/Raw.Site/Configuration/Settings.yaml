@@ -11,17 +11,17 @@ Neos:
       defaultLanguage: 'de'
     nodeTypes:
       groups:
-        custom:
+        special:
           position: 'end'
-          label: Raw.Site:Main:nodeTypes.groups.custom
-  Media:
-    assetSources:
-      pexels:
-        assetSource: 'DL\AssetSource\Pexels\AssetSource\PexelsAssetSource'
-        assetSourceOptions:
-          accessKey: youraccesskey
-          defaultSearchTerm: ''
-          copyRightNoticeTemplate: '${"Pexels.com / " + user.name}'
+          label: Raw.Site:Main:nodeTypes.groups.special
+  #Media:
+    #assetSources:
+      #pexels:
+        #assetSource: 'DL\AssetSource\Pexels\AssetSource\PexelsAssetSource'
+        #assetSourceOptions:
+          #accessKey: youraccesskey
+          #defaultSearchTerm: ''
+          #copyRightNoticeTemplate: '${"Pexels.com / " + user.name}'
 Raw:
   Site:
     pageTitle: 'Raw Site'
@@ -30,6 +30,11 @@ Raw:
     #headerLogoPath: 'Images/Logo.png'
     #headerLogoPackage: 'Raw.Site'
     #headerLogoAltText: 'RawSite'
+    #navbarAlignment: 'right'
+    #navbarFluid: TRUE
+    #navbarSticky: TRUE
+    #navbarBackground: 'bg-white'
+    #navbarBreakpoint: 'lg'
     #colors:
       #primary: 'blue'
       #secondary: '#6c757d'

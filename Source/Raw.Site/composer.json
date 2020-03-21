@@ -11,6 +11,7 @@
         "neos/neos-setup": "^1.0",
         "neos/redirecthandler-neosadapter": "*",
         "neos/redirecthandler-databasestorage": "*",
+        "neos/redirecthandler-ui": "*",
         "neos/neos-ui": "*",
         "neos/neos-ui-compiled": "*",
 
@@ -22,6 +23,7 @@
         "neos/form-builder": "*",
         "flownative/neos-compressor": "*",
         "neosrulez/bootstrap": "^3.3",
+        "neosrulez/slickcarousel": "1.0",
         "dl/assetsource-pexels": "1.4.0"
     },
     "autoload": {

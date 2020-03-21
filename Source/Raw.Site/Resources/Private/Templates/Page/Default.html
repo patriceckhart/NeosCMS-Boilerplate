@@ -8,9 +8,7 @@
 	<link rel="stylesheet" href="{f:uri.resource(path: 'Styles/backend.css', package: 'Raw.Site')}" media="all" />
 </f:section>
 <f:section name="body">
-	<header>
-		{parts.menu -> f:format.raw()}
-	</header>
+	{parts.menu -> f:format.raw()}
 	<main>
 		{content.main -> f:format.raw()}
 	</main>
