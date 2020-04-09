@@ -14,17 +14,15 @@
         "neos/redirecthandler-ui": "*",
         "neos/neos-ui": "*",
         "neos/neos-ui-compiled": "*",
-
         "moc/notfound": "*",
-        "moc/synchronizeurl": "*",
-
         "neos/swiftmailer": "*",
         "networkteam/neos-mailobfuscator": "*",
         "neos/form-builder": "*",
         "flownative/neos-compressor": "*",
         "neosrulez/bootstrap": "^3.3",
         "neosrulez/slickcarousel": "1.0",
-        "dl/assetsource-pexels": "1.4.0"
+        "dl/assetsource-pexels": "1.4.0",
+        "shel/neos-hyphens": "*"
     },
     "autoload": {
         "psr-4": {
