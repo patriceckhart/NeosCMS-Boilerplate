@@ -1,0 +1,14 @@
+'Neos.NodeTypes:Text':
+  properties:
+    text:
+      ui:
+        inline:
+          editorOptions:
+            hyphens: true
+'Neos.NodeTypes:Headline':
+  properties:
+    title:
+      ui:
+        inline:
+          editorOptions:
+            hyphens: true
