@@ -1,0 +1,26 @@
+'Raw.Site:Document.404':
+  superTypes:
+    'Raw.Site:Document.AbstractPage': true
+  ui:
+    label: i18n
+    icon: icon-exclamation-triangle
+    position: 'end'
+  properties:
+    _hiddenInIndex:
+      type: boolean
+      defaultValue: TRUE
+      ui:
+        inspector:
+          group: ~
+    metaRobotsNoindex:
+      type: boolean
+      defaultValue: TRUE
+      ui:
+        inspector:
+          group: ~
+    metaRobotsNofollow:
+      type: boolean
+      defaultValue: TRUE
+      ui:
+        inspector:
+          group: ~

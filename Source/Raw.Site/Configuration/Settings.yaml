@@ -1,4 +1,10 @@
 Neos:
+  Flow:
+    mvc:
+      routes:
+        'Neos.Neos':
+          variables:
+            defaultUriSuffix: ''
   Neos:
     eventLog:
       enabled: TRUE
@@ -11,38 +17,6 @@ Neos:
       defaultLanguage: 'de'
     nodeTypes:
       groups:
-        special:
-          position: 'end'
-          label: Raw.Site:Main:nodeTypes.groups.special
-  #Media:
-    #assetSources:
-      #pexels:
-        #assetSource: 'DL\AssetSource\Pexels\AssetSource\PexelsAssetSource'
-        #assetSourceOptions:
-          #accessKey: youraccesskey
-          #defaultSearchTerm: ''
-          #copyRightNoticeTemplate: '${"Pexels.com / " + user.name}'
-Raw:
-  Site:
-    pageTitle: 'Raw Site'
-#NeosRulez:
-  #Bootstrap:
-    #headerLogoPath: 'Images/Logo.png'
-    #headerLogoPackage: 'Raw.Site'
-    #headerLogoAltText: 'RawSite'
-    #navbarAlignment: 'right'
-    #navbarFluid: TRUE
-    #navbarSticky: TRUE
-    #navbarBackground: 'bg-white'
-    #navbarBreakpoint: 'lg'
-    #colors:
-      #primary: 'blue'
-      #secondary: '#6c757d'
-      #success: '#28a745'
-      #danger: '#dc3545'
-      #warning: '#d39e00'
-      #info: '#17a2b8'
-      #light: '#f8f9fa'
-      #dark: '#343a40'
-      #muted: '#6c757d'
-      #white: '#fff'
+        contentBlocks:
+          position: 110
+          label: Raw.Site:Main:nodeTypes.groups.contentBlocks

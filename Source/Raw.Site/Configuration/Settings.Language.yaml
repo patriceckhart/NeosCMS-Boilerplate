@@ -1,0 +1,30 @@
+Neos:
+  Flow:
+    i18n:
+      defaultLocale: de
+  ContentRepository:
+    contentDimensions:
+      language:
+        label: Languages
+        icon: icon-language
+        default: de
+        defaultPreset: de
+        presets:
+          de:
+            label: Deutsch
+            values:
+              - de
+            uriSegment: 'de'
+          # en:
+          #   label: English
+          #   values:
+          #     - en
+          #   uriSegment: ''
+  Neos:
+    userInterface:
+      defaultLanguage: de
+      # translation:
+      #   autoInclude:
+      #     Raw.Site:
+      #       - Main
+      #       - 'NodeTypes/*'

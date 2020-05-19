@@ -1,0 +1,12 @@
+# 'Neos.NodeTypes:Page':
+#   constraints:
+#     nodeTypes:
+#       'Raw.Site:Homepage': FALSE
+#       'Raw.Site:404': FALSE
+'Raw.Site:Document.Page':
+  superTypes:
+    'Raw.Site:Document.AbstractPage': true
+  ui:
+    label: 'Seite'
+    icon: icon-file-o
+    position: 100
