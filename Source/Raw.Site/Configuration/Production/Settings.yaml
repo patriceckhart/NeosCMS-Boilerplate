@@ -1,6 +1,0 @@
-Neos:
-  GoogleAnalytics:
-    enableTracking: true
-    sites:
-      site:
-        trackingId: ''

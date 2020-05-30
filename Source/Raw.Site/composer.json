@@ -9,7 +9,6 @@
         "neos/seo": "*",
         "neos/setup": "^4.1",
         "neos/neos-setup": "^1.0",
-        "neos/googleanalytics": "^3.2",
         "neos/redirecthandler-neosadapter": "*",
         "neos/redirecthandler-databasestorage": "*",
         "neos/redirecthandler-ui": "*",
