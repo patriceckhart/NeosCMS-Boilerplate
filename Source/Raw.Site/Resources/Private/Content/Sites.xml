@@ -2,152 +2,53 @@
 <root>
  <site name="Site" state="1" siteResourcesPackageKey="Raw.Site" siteNodeName="site">
   <nodes formatVersion="2.0">
-   <node identifier="73dbc436-95f8-4bb4-b458-6cddb821cbf2" nodeName="site">
-    <variant sortingIndex="100" workspace="live" nodeType="Raw.Site:Homepage" version="4" removed="" hidden="" hiddenInIndex="">
+   <node identifier="e505809a-fbb3-43e8-8e7e-dfadc820ec0e" nodeName="site">
+    <variant sortingIndex="100" workspace="live" nodeType="Raw.Site:Document.HomePage" version="2" removed="" hidden="" hiddenInIndex="">
      <dimensions>
       <language>de</language>
      </dimensions>
      <accessRoles __type="array"/>
-     <creationDateTime __type="object" __classname="DateTime">2018-06-29T08:03:21+00:00</creationDateTime>
-     <lastModificationDateTime __type="object" __classname="DateTime">2020-03-15T07:36:52+00:00</lastModificationDateTime>
-     <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-29T19:30:33+00:00</lastPublicationDateTime>
+     <creationDateTime __type="object" __classname="DateTime">2020-05-30T07:42:09+02:00</creationDateTime>
+     <lastModificationDateTime __type="object" __classname="DateTime">2020-05-30T07:43:23+02:00</lastModificationDateTime>
+     <lastPublicationDateTime __type="object" __classname="DateTime">2020-05-30T07:43:20+02:00</lastPublicationDateTime>
      <properties>
-      <title __type="string">Home</title>
       <uriPathSegment __type="string">home</uriPathSegment>
-      <metaRobotsNoindex __type="boolean">1</metaRobotsNoindex>
-      <metaRobotsNofollow __type="boolean">1</metaRobotsNofollow>
       <noSubMenu __type="boolean"></noSubMenu>
       <onlyicon __type="boolean"></onlyicon>
+      <title __type="string">Home</title>
      </properties>
     </variant>
-    <node identifier="bca39628-cfbc-d07f-5854-5a75bb6ad632" nodeName="footer">
+    <node identifier="394ae6e6-4388-f13e-1cc3-f862605af80c" nodeName="footer">
      <variant sortingIndex="200" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
       <dimensions>
        <language>de</language>
       </dimensions>
       <accessRoles __type="array"/>
-      <creationDateTime __type="object" __classname="DateTime">2020-03-15T07:36:52+00:00</creationDateTime>
-      <lastModificationDateTime __type="object" __classname="DateTime">2020-03-15T07:36:52+00:00</lastModificationDateTime>
+      <creationDateTime __type="object" __classname="DateTime">2020-05-30T07:42:09+02:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2020-05-30T07:42:09+02:00</lastModificationDateTime>
       <properties/>
      </variant>
     </node>
-    <node identifier="d779ab7f-a01e-6251-5b04-730d5503a944" nodeName="main">
+    <node identifier="ca780d31-4e77-efe1-3fd0-f4fe6eedb53b" nodeName="main">
      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
       <dimensions>
        <language>de</language>
       </dimensions>
       <accessRoles __type="array"/>
-      <creationDateTime __type="object" __classname="DateTime">2020-03-15T07:36:51+00:00</creationDateTime>
-      <lastModificationDateTime __type="object" __classname="DateTime">2020-03-15T07:36:51+00:00</lastModificationDateTime>
+      <creationDateTime __type="object" __classname="DateTime">2020-05-30T07:42:09+02:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2020-05-30T07:42:09+02:00</lastModificationDateTime>
       <properties/>
      </variant>
     </node>
-    <node identifier="4e467489-3743-49f3-b51e-54e7e77daa15" nodeName="node-imsylwb6mg8kn">
-     <variant sortingIndex="350" workspace="live" nodeType="Neos.NodeTypes:Page" version="4" removed="" hidden="" hiddenInIndex="1">
+    <node identifier="455a33ab-4b1b-4871-9e77-9210692d05f3" nodeName="node-2u0q65k6l99di">
+     <variant sortingIndex="300" workspace="live" nodeType="Raw.Site:Document.Page" version="3" removed="" hidden="" hiddenInIndex="1">
       <dimensions>
        <language>de</language>
       </dimensions>
       <accessRoles __type="array"/>
-      <creationDateTime __type="object" __classname="DateTime">2020-03-15T07:37:51+00:00</creationDateTime>
-      <lastModificationDateTime __type="object" __classname="DateTime">2020-03-15T07:45:47+00:00</lastModificationDateTime>
-      <lastPublicationDateTime __type="object" __classname="DateTime">2020-03-15T07:45:44+00:00</lastPublicationDateTime>
-      <properties>
-       <uriPathSegment __type="string">datenschutz</uriPathSegment>
-       <noSubMenu __type="boolean"></noSubMenu>
-       <onlyicon __type="boolean"></onlyicon>
-       <title __type="string">Datenschutz</title>
-       <metaRobotsNofollow __type="boolean">1</metaRobotsNofollow>
-       <metaRobotsNoindex __type="boolean">1</metaRobotsNoindex>
-      </properties>
-     </variant>
-     <node identifier="293e3a42-b0cd-e624-bc78-fdb70bf349b0" nodeName="footer">
-      <variant sortingIndex="200" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
-       <dimensions>
-        <language>de</language>
-       </dimensions>
-       <accessRoles __type="array"/>
-       <creationDateTime __type="object" __classname="DateTime">2020-03-15T07:37:51+00:00</creationDateTime>
-       <lastModificationDateTime __type="object" __classname="DateTime">2020-03-15T07:38:05+00:00</lastModificationDateTime>
-       <lastPublicationDateTime __type="object" __classname="DateTime">2020-03-15T07:38:02+00:00</lastPublicationDateTime>
-       <properties/>
-      </variant>
-     </node>
-     <node identifier="30ee07bf-cb45-0b32-fc82-3a0484426ffa" nodeName="main">
-      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
-       <dimensions>
-        <language>de</language>
-       </dimensions>
-       <accessRoles __type="array"/>
-       <creationDateTime __type="object" __classname="DateTime">2020-03-15T07:37:51+00:00</creationDateTime>
-       <lastModificationDateTime __type="object" __classname="DateTime">2020-03-15T07:38:05+00:00</lastModificationDateTime>
-       <lastPublicationDateTime __type="object" __classname="DateTime">2020-03-15T07:38:02+00:00</lastPublicationDateTime>
-       <properties/>
-      </variant>
-      <node identifier="a328c0b6-5d0c-4190-be07-7d983aa3529e" nodeName="node-kgejk4we1tbil">
-       <variant sortingIndex="150" workspace="live" nodeType="Neos.NodeTypes:Text" version="13" removed="" hidden="" hiddenInIndex="">
-        <dimensions>
-         <language>de</language>
-        </dimensions>
-        <accessRoles __type="array"/>
-        <creationDateTime __type="object" __classname="DateTime">2020-03-15T07:40:12+00:00</creationDateTime>
-        <lastModificationDateTime __type="object" __classname="DateTime">2020-03-15T07:41:43+00:00</lastModificationDateTime>
-        <lastPublicationDateTime __type="object" __classname="DateTime">2020-03-15T07:41:40+00:00</lastPublicationDateTime>
-        <properties>
-         <animation __type="string"></animation>
-         <delay __type="string">0</delay>
-         <mt __type="string"></mt>
-         <mb __type="string"></mb>
-         <ml __type="string"></ml>
-         <mr __type="string"></mr>
-         <pt __type="string"></pt>
-         <pb __type="string"></pb>
-         <pl __type="string"></pl>
-         <pr __type="string"></pr>
-         <tooltipposition __type="string"></tooltipposition>
-         <containerwidth __type="string">container</containerwidth>
-         <text __type="string">&lt;p&gt;Der Schutz Ihrer persönlichen Daten ist uns ein besonderes Anliegen. Wir verarbeiten Ihre Daten daher ausschließlich auf Grundlage der gesetzlichen Bestimmungen (DSGVO, TKG 2003). In diesen Datenschutzinformationen informieren wir Sie über die wichtigsten Aspekte der Datenverarbeitung im Rahmen unserer Website.&lt;/p&gt;&lt;h5&gt;Kontakt mit uns&lt;/h5&gt;&lt;p&gt;Wenn Sie per Formular auf der Website oder per E-Mail Kontakt mit uns aufnehmen, werden die von Ihnen angegebenen Daten (Vorname, Nachname, Firma, Email-Adresse) zur Bearbeitung der Anfrage und für den Fall von Anschlussfragen 6 Monaten bei uns gespeichert, jedoch nicht am Webserver. Dieses Formular versendet lediglich Ihre Anfrage und speichert dies auf keinen Fall in der Datenbank. Diese Daten geben wir nicht ohne Ihre Einwilligung weiter.&lt;/p&gt;&lt;h5&gt;Cookies&lt;/h5&gt;&lt;p&gt;Unsere Website verwendet so genannte Cookies. Dabei handelt es sich um kleine Textdateien, die mit Hilfe des Browsers auf Ihrem Endgerät abgelegt werden. Sie richten keinen Schaden an.&lt;/p&gt;&lt;p&gt;Wir nutzen Cookies dazu, unser Angebot nutzerfreundlich zu gestalten. Einige Cookies bleiben auf Ihrem Endgerät gespeichert, bis Sie diese löschen. Sie ermöglichen es uns, Ihren Browser beim nächsten Besuch wieder zuerkennen.&lt;/p&gt;&lt;p&gt;Wenn Sie dies nicht wünschen, so können Sie Ihren Browser so einrichten, dass er Cookies gänzlich deaktiviert oder Sie über das Setzen von Cookies informiert und Sie dies nur im Einzelfall erlauben. Bei der Deaktivierung von Cookies kann die Funktionalität unserer Website eingeschränkt sein.&lt;/p&gt;&lt;h5&gt;Google Analytics &amp;amp; Web-Analyse&lt;/h5&gt;&lt;p&gt;Diese Website benutzt Google Analytics, einen Webanalysedienst der Google Inc. (&quot;Google&quot;). Wir haben mit dem Anbieter einen entsprechenden Vertrag zur Auftragsdatenverarbeitung abgeschlossen. Die Beziehung zum Webanalyseanbieter basiert auf dem Angemessenheitsbeschluss der Europäischen Komission (&quot;Privacy Shield&quot;). Die Datenverarbeitung erfolgt auf Basis der gesetzlichen Bestimmungen des § 96 Abs 3 TKG sowie des Art 6 Abs 1 lit a (Einwilligung) und f (berechtigtes Interesse) der DSGVO.&lt;/p&gt;&lt;p&gt;Google Analytics verwendet sog. &quot;Cookies&quot;, Textdateien, die auf Ihrem Computer gespeichert werden und die eine Analyse der Benutzung der Website durch Sie ermöglichen. Sie können dies verhindern, indem Sie Ihren Browser so einrichten, dass keine Cookies gespeichert werden. Wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht sämtliche Funktionen dieser Website vollumfänglich nutzen können.&lt;/p&gt;&lt;p&gt;Die durch den Cookie erzeugten Informationen über Ihre Benutzung dieser Website (einschließlich Ihrer IP-Adresse) werden an einen Server von Google in den USA übertragen und dort gespeichert. Google wird diese Informationen benutzen, um Ihre Nutzung der Website auszuwerten, um Reports über die Websiteaktivitäten für die Websitebetreiber zusammenzustellen und um weitere mit der Websitenutzung und der Internetnutzung verbundene Dienstleistungen zu erbringen. Auch wird Google diese Informationen gegebenenfalls an Dritte übertragen, sofern dies gesetzlich vorgeschrieben ist oder soweit Dritte diese Daten im Auftrag von Google verarbeiten. Google wird in keinem Fall Ihre IP-Adresse mit anderen Daten von Google in Verbindung bringen.&lt;/p&gt;&lt;p&gt;Durch die Nutzung dieser Website erklären Sie sich mit der Bearbeitung der über Sie erhobenen Daten durch Google in der zuvor beschriebenen Art und Weise und zu dem zuvor benannten Zweck einverstanden. Der Datenerhebung und -speicherung kann jederzeit mit Wirkung für die Zukunft widersprochen werden.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://tools.google.com/dlpage/gaoptout?hl=de&quot;&gt;https://tools.google.com/dlpage/gaoptout?hl=de&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Diese Website verwendet Google Analytics mit der Erweiterung &quot;_anonymizeIp()&quot;, wodurch IP-Adressen nur gekürzt weiterverarbeitet werden, um eine direkte Personenbeziehbarkeit auszuschließen. Für weitere Informationen klicken Sie bitte &lt;a href=&quot;http://www.google.com/privacy/privacy-policy.html&quot;&gt;http://www.google.com/privacy/privacy-policy.html&lt;/a&gt;&lt;/p&gt;&lt;h5&gt;Ihre Rechte&lt;/h5&gt;&lt;p&gt;Ihnen stehen grundsätzlich die Rechte auf Auskunft, Berichtigung, Löschung, Einschränkung, Datenübertragbarkeit, Widerruf und Widerspruch zu. Wenn Sie glauben, dass die Verarbeitung Ihrer Daten gegen das Datenschutzrecht verstößt oder Ihre datenschutzrechtlichen Ansprüche sonst in einer Weise verletzt worden sind, können Sie sich bei der Aufsichtsbehörde beschweren. In Österreich ist dies die Datenschutzbehörde.&lt;/p&gt;&lt;h5&gt;Sie erreichen uns unter folgenden Kontaktdaten&lt;/h5&gt;&lt;p&gt;RawSite&lt;/p&gt;</text>
-         <textBsColor __type="string"></textBsColor>
-        </properties>
-       </variant>
-      </node>
-      <node identifier="d0ae934b-f023-4d73-8316-ea918bf5d199" nodeName="node-pae9myn551rtp">
-       <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Headline" version="3" removed="" hidden="" hiddenInIndex="">
-        <dimensions>
-         <language>de</language>
-        </dimensions>
-        <accessRoles __type="array"/>
-        <creationDateTime __type="object" __classname="DateTime">2020-03-15T07:39:59+00:00</creationDateTime>
-        <lastModificationDateTime __type="object" __classname="DateTime">2020-03-15T07:41:43+00:00</lastModificationDateTime>
-        <lastPublicationDateTime __type="object" __classname="DateTime">2020-03-15T07:41:40+00:00</lastPublicationDateTime>
-        <properties>
-         <animation __type="string"></animation>
-         <delay __type="string">0</delay>
-         <mt __type="string"></mt>
-         <mb __type="string"></mb>
-         <ml __type="string"></ml>
-         <mr __type="string"></mr>
-         <pt __type="string"></pt>
-         <pb __type="string"></pb>
-         <pl __type="string"></pl>
-         <pr __type="string"></pr>
-         <tooltipposition __type="string"></tooltipposition>
-         <containerwidth __type="string">container</containerwidth>
-         <title __type="string">&lt;h1&gt;Datenschutzerklärung&lt;/h1&gt;</title>
-         <textBsColor __type="string"></textBsColor>
-        </properties>
-       </variant>
-      </node>
-     </node>
-    </node>
-    <node identifier="dbc1a474-9ced-421b-81ff-905cc54ad402" nodeName="node-s9bpya0lldtbq">
-     <variant sortingIndex="300" workspace="live" nodeType="Neos.NodeTypes:Page" version="4" removed="" hidden="" hiddenInIndex="1">
-      <dimensions>
-       <language>de</language>
-      </dimensions>
-      <accessRoles __type="array"/>
-      <creationDateTime __type="object" __classname="DateTime">2020-03-15T07:37:38+00:00</creationDateTime>
-      <lastModificationDateTime __type="object" __classname="DateTime">2020-03-15T07:54:19+00:00</lastModificationDateTime>
-      <lastPublicationDateTime __type="object" __classname="DateTime">2020-03-15T07:54:16+00:00</lastPublicationDateTime>
+      <creationDateTime __type="object" __classname="DateTime">2020-05-30T07:43:43+02:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2020-05-30T07:51:10+02:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2020-05-30T07:51:07+02:00</lastPublicationDateTime>
       <properties>
        <uriPathSegment __type="string">impressum</uriPathSegment>
        <noSubMenu __type="boolean"></noSubMenu>
@@ -157,38 +58,38 @@
        <metaRobotsNofollow __type="boolean">1</metaRobotsNofollow>
       </properties>
      </variant>
-     <node identifier="5bc86f8f-73cc-51e0-8bf7-b113be3516e0" nodeName="footer">
+     <node identifier="9a2dd438-b7c2-a34d-e16a-4e729cab1eff" nodeName="footer">
       <variant sortingIndex="200" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>de</language>
        </dimensions>
        <accessRoles __type="array"/>
-       <creationDateTime __type="object" __classname="DateTime">2020-03-15T07:37:38+00:00</creationDateTime>
-       <lastModificationDateTime __type="object" __classname="DateTime">2020-03-15T07:38:05+00:00</lastModificationDateTime>
-       <lastPublicationDateTime __type="object" __classname="DateTime">2020-03-15T07:38:02+00:00</lastPublicationDateTime>
+       <creationDateTime __type="object" __classname="DateTime">2020-05-30T07:43:43+02:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2020-05-30T07:45:03+02:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2020-05-30T07:45:00+02:00</lastPublicationDateTime>
        <properties/>
       </variant>
      </node>
-     <node identifier="f393dc84-b805-cc3a-0d85-e51a24c425c5" nodeName="main">
+     <node identifier="29c6f976-cc77-412e-5d33-24730a8e2220" nodeName="main">
       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>de</language>
        </dimensions>
        <accessRoles __type="array"/>
-       <creationDateTime __type="object" __classname="DateTime">2020-03-15T07:37:38+00:00</creationDateTime>
-       <lastModificationDateTime __type="object" __classname="DateTime">2020-03-15T07:38:05+00:00</lastModificationDateTime>
-       <lastPublicationDateTime __type="object" __classname="DateTime">2020-03-15T07:38:02+00:00</lastPublicationDateTime>
+       <creationDateTime __type="object" __classname="DateTime">2020-05-30T07:43:43+02:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2020-05-30T07:45:03+02:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2020-05-30T07:45:00+02:00</lastPublicationDateTime>
        <properties/>
       </variant>
-      <node identifier="7b1344ba-5f23-4b81-874b-a1ec9f63c9ae" nodeName="node-g8boaiuhitke7">
+      <node identifier="a2314d68-16bc-42e3-aed4-e6a09dfba6df" nodeName="node-p53tp5n0hhifi">
        <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Headline" version="3" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>de</language>
         </dimensions>
         <accessRoles __type="array"/>
-        <creationDateTime __type="object" __classname="DateTime">2020-03-15T07:38:17+00:00</creationDateTime>
-        <lastModificationDateTime __type="object" __classname="DateTime">2020-03-15T07:39:41+00:00</lastModificationDateTime>
-        <lastPublicationDateTime __type="object" __classname="DateTime">2020-03-15T07:39:39+00:00</lastPublicationDateTime>
+        <creationDateTime __type="object" __classname="DateTime">2020-05-30T07:45:18+02:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2020-05-30T07:46:59+02:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2020-05-30T07:46:56+02:00</lastPublicationDateTime>
         <properties>
          <animation __type="string"></animation>
          <delay __type="string">0</delay>
@@ -200,22 +101,22 @@
          <pb __type="string"></pb>
          <pl __type="string"></pl>
          <pr __type="string"></pr>
-         <tooltipposition __type="string"></tooltipposition>
+         <tooltipposition __type="string">top</tooltipposition>
          <containerwidth __type="string">container</containerwidth>
          <title __type="string">&lt;h1&gt;Impressum&lt;/h1&gt;</title>
          <textBsColor __type="string"></textBsColor>
         </properties>
        </variant>
       </node>
-      <node identifier="12bbb173-15c0-4114-96a2-0573983d33b7" nodeName="node-pfo2l68n7lkkb">
-       <variant sortingIndex="150" workspace="live" nodeType="Neos.NodeTypes:Text" version="12" removed="" hidden="" hiddenInIndex="">
+      <node identifier="4a1cfb02-e4ad-4661-b059-d6f0c3d2c4c8" nodeName="node-ri4pw8z9nuvao">
+       <variant sortingIndex="150" workspace="live" nodeType="Neos.NodeTypes:Text" version="15" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>de</language>
         </dimensions>
         <accessRoles __type="array"/>
-        <creationDateTime __type="object" __classname="DateTime">2020-03-15T07:38:36+00:00</creationDateTime>
-        <lastModificationDateTime __type="object" __classname="DateTime">2020-03-15T07:39:41+00:00</lastModificationDateTime>
-        <lastPublicationDateTime __type="object" __classname="DateTime">2020-03-15T07:39:39+00:00</lastPublicationDateTime>
+        <creationDateTime __type="object" __classname="DateTime">2020-05-30T07:45:34+02:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2020-05-30T07:46:59+02:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2020-05-30T07:46:56+02:00</lastPublicationDateTime>
         <properties>
          <animation __type="string"></animation>
          <delay __type="string">0</delay>
@@ -227,65 +128,65 @@
          <pb __type="string"></pb>
          <pl __type="string"></pl>
          <pr __type="string"></pr>
-         <tooltipposition __type="string"></tooltipposition>
+         <tooltipposition __type="string">top</tooltipposition>
          <containerwidth __type="string">container</containerwidth>
-         <text __type="string">&lt;h5&gt;Für den Inhalt verantwortlich&lt;/h5&gt;&lt;p&gt;Raw Site&lt;/p&gt;&lt;h5&gt;Inhalt des Onlineangebotes&lt;/h5&gt;&lt;p&gt;Der Autor übernimmt keinerlei Gewähr für die Aktualität, Korrektheit, Vollständigkeit oder Qualität der bereitgestellten Informationen. Haftungsansprüche gegen den Autor, welche sich auf Schäden materieller oder ideeller Art beziehen, die durch die Nutzung oder Nichtnutzung der dargebotenen Informationen bzw. durch die Nutzung fehlerhafter und unvollständiger Informationen verursacht wurden, sind grundsätzlich ausgeschlossen, sofern seitens des Autors kein nachweislich vorsätzliches oder grob fahrlässiges Verschulden vorliegt. Alle Angebote sind freibleibend und unverbindlich. Der Autor behält es sich ausdrücklich vor, Teile der Seiten oder das gesamte Angebot ohne gesonderte Ankündigung zu verändern, zu ergänzen, zu löschen oder die Veröffentlichung zeitweise oder endgültig einzustellen.&lt;/p&gt;&lt;h5&gt;Verweise und Links&lt;/h5&gt;&lt;p&gt;Bei direkten oder indirekten Verweisen auf fremde Webseiten (&quot;Hyperlinks&quot;), die außerhalb des Verantwortungsbereiches des Autors liegen, würde eine Haftungsverpflichtung ausschließlich in dem Fall in Kraft treten, in dem der Autor von den Inhalten Kenntnis hat und es ihm technisch möglich und zumutbar wäre, die Nutzung im Falle rechtswidriger Inhalte zu verhindern. Der Autor erklärt hiermit ausdrücklich, dass zum Zeitpunkt der Linksetzung keine illegalen Inhalte auf den zu verlinkenden Seiten erkennbar waren. Auf die aktuelle und zukünftige Gestaltung, die Inhalte oder die Urheberschaft der verlinkten/verknüpften Seiten hat der Autor keinerlei Einfluss. Deshalb distanziert er sich hiermit ausdrücklich von allen Inhalten aller verlinkten /verknüpften Seiten, die nach der Linksetzung verändert wurden. Diese Feststellung gilt für alle innerhalb des eigenen Internetangebotes gesetzten Links und Verweise sowie für Fremdeinträge in vom Autor eingerichteten Gästebüchern, Diskussionsforen, Linkverzeichnissen, Mailinglisten und in allen anderen Formen von Datenbanken, auf deren Inhalt externe Schreibzugriffe möglich sind. Für illegale, fehlerhafte oder unvollständige Inhalte und insbesondere für Schäden, die aus der Nutzung oder Nichtnutzung solcherart dargebotener Informationen entstehen, haftet allein der Anbieter der Seite, auf welche verwiesen wurde, nicht derjenige, der über Links auf die jeweilige Veröffentlichung lediglich verweist.&lt;/p&gt;&lt;h5&gt;Urheber- und Kennzeichenrecht&lt;/h5&gt;&lt;p&gt;Der Autor ist bestrebt, in allen Publikationen die Urheberrechte der verwendeten Bilder, Grafiken, Tondokumente, Videosequenzen und Texte zu beachten, von ihm selbst erstellte Bilder, Grafiken, Tondokumente, Videosequenzen und Texte zu nutzen oder auf lizenzfreie Grafiken, Tondokumente, Videosequenzen und Texte zurückzugreifen. Alle innerhalb des Internetangebotes genannten und ggf. durch Dritte geschützten Marken- und Warenzeichen unterliegen uneingeschränkt den Bestimmungen des jeweils gültigen Kennzeichenrechts und den Besitzrechten der jeweiligen eingetragenen Eigentümer. Allein aufgrund der bloßen Nennung ist nicht der Schluss zu ziehen, dass Markenzeichen nicht durch Rechte Dritter geschützt sind! Das Copyright für veröffentlichte, vom Autor selbst erstellte Objekte bleibt allein beim Autor der Seiten. Eine Vervielfältigung oder Verwendung solcher Grafiken, Tondokumente, Videosequenzen und Texte in anderen elektronischen oder gedruckten Publikationen ist ohne ausdrückliche Zustimmung des Autors nicht gestattet.&lt;/p&gt;&lt;h5&gt;Rechtswirksamkeit dieses Haftungsausschlusses&lt;/h5&gt;&lt;p&gt;Dieser Haftungsausschluss ist als Teil des Internetangebotes zu betrachten, von dem aus auf diese Seite verwiesen wurde. Sofern Teile oder einzelne Formulierungen dieses Textes der geltenden Rechtslage nicht, nicht mehr oder nicht vollständig entsprechen sollten, bleiben die übrigen Teile des Dokumentes in ihrem Inhalt und ihrer Gültigkeit davon unberührt.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;© Copyright RawSite. Alle Rechte vorbehalten.&lt;/strong&gt;&lt;/p&gt;</text>
+         <text __type="string">&lt;h5&gt;Für den Inhalt verantwortlich&lt;/h5&gt;&lt;p&gt;foobar&lt;/p&gt;&lt;h5&gt;Inhalt des Onlineangebotes&lt;/h5&gt;&lt;p&gt;Der Autor übernimmt keinerlei Gewähr für die Aktualität, Korrektheit, Vollständigkeit oder Qualität der bereitgestellten Informationen. Haftungsansprüche gegen den Autor, welche sich auf Schäden materieller oder ideeller Art beziehen, die durch die Nutzung oder Nichtnutzung der dargebotenen Informationen bzw. durch die Nutzung fehlerhafter und unvollständiger Informationen verursacht wurden, sind grundsätzlich ausgeschlossen, sofern seitens des Autors kein nachweislich vorsätzliches oder grob fahrlässiges Verschulden vorliegt. Alle Angebote sind freibleibend und unverbindlich. Der Autor behält es sich ausdrücklich vor, Teile der Seiten oder das gesamte Angebot ohne gesonderte Ankündigung zu verändern, zu ergänzen, zu löschen oder die Veröffentlichung zeitweise oder endgültig einzustellen.&lt;/p&gt;&lt;h5&gt;Verweise und Links&lt;/h5&gt;&lt;p&gt;Bei direkten oder indirekten Verweisen auf fremde Webseiten (&quot;Hyperlinks&quot;), die außerhalb des Verantwortungsbereiches des Autors liegen, würde eine Haftungsverpflichtung ausschließlich in dem Fall in Kraft treten, in dem der Autor von den Inhalten Kenntnis hat und es ihm technisch möglich und zumutbar wäre, die Nutzung im Falle rechtswidriger Inhalte zu verhindern. Der Autor erklärt hiermit ausdrücklich, dass zum Zeitpunkt der Linksetzung keine illegalen Inhalte auf den zu verlinkenden Seiten erkennbar waren. Auf die aktuelle und zukünftige Gestaltung, die Inhalte oder die Urheberschaft der verlinkten/verknüpften Seiten hat der Autor keinerlei Einfluss. Deshalb distanziert er sich hiermit ausdrücklich von allen Inhalten aller verlinkten /verknüpften Seiten, die nach der Linksetzung verändert wurden. Diese Feststellung gilt für alle innerhalb des eigenen Internetangebotes gesetzten Links und Verweise sowie für Fremdeinträge in vom Autor eingerichteten Gästebüchern, Diskussionsforen, Linkverzeichnissen, Mailinglisten und in allen anderen Formen von Datenbanken, auf deren Inhalt externe Schreibzugriffe möglich sind. Für illegale, fehlerhafte oder unvollständige Inhalte und insbesondere für Schäden, die aus der Nutzung oder Nichtnutzung solcherart dargebotener Informationen entstehen, haftet allein der Anbieter der Seite, auf welche verwiesen wurde, nicht derjenige, der über Links auf die jeweilige Veröffentlichung lediglich verweist.&lt;/p&gt;&lt;h5&gt;Urheber- und Kennzeichenrecht&lt;/h5&gt;&lt;p&gt;Der Autor ist bestrebt, in allen Publikationen die Urheberrechte der verwendeten Bilder, Grafiken, Tondokumente, Videosequenzen und Texte zu beachten, von ihm selbst erstellte Bilder, Grafiken, Tondokumente, Videosequenzen und Texte zu nutzen oder auf lizenzfreie Grafiken, Tondokumente, Videosequenzen und Texte zurückzugreifen. Alle innerhalb des Internetangebotes genannten und ggf. durch Dritte geschützten Marken- und Warenzeichen unterliegen uneingeschränkt den Bestimmungen des jeweils gültigen Kennzeichenrechts und den Besitzrechten der jeweiligen eingetragenen Eigentümer. Allein aufgrund der bloßen Nennung ist nicht der Schluss zu ziehen, dass Markenzeichen nicht durch Rechte Dritter geschützt sind! Das Copyright für veröffentlichte, vom Autor selbst erstellte Objekte bleibt allein beim Autor der Seiten. Eine Vervielfältigung oder Verwendung solcher Grafiken, Tondokumente, Videosequenzen und Texte in anderen elektronischen oder gedruckten Publikationen ist ohne ausdrückliche Zustimmung des Autors nicht gestattet.&lt;/p&gt;&lt;h5&gt;Rechtswirksamkeit dieses Haftungsausschlusses&lt;/h5&gt;&lt;p&gt;Dieser Haftungsausschluss ist als Teil des Internetangebotes zu betrachten, von dem aus auf diese Seite verwiesen wurde. Sofern Teile oder einzelne Formulierungen dieses Textes der geltenden Rechtslage nicht, nicht mehr oder nicht vollständig entsprechen sollten, bleiben die übrigen Teile des Dokumentes in ihrem Inhalt und ihrer Gültigkeit davon unberührt.&lt;/p&gt;&lt;p&gt;© Copyright foo. Alle Rechte vorbehalten.&lt;/p&gt;</text>
          <textBsColor __type="string"></textBsColor>
         </properties>
        </variant>
       </node>
      </node>
     </node>
-    <node identifier="a86b1a77-6eeb-4f66-b1e9-db3f8deb7101" nodeName="node-upify4vgsb7op">
-     <variant sortingIndex="450" workspace="live" nodeType="Raw.Site:404" version="3" removed="" hidden="" hiddenInIndex="1">
+    <node identifier="994ce07b-578e-4ca7-8f2b-08982e6fe7bc" nodeName="node-c5vshhay2bmhp">
+     <variant sortingIndex="400" workspace="live" nodeType="Raw.Site:Document.404" version="3" removed="" hidden="" hiddenInIndex="1">
       <dimensions>
        <language>de</language>
       </dimensions>
       <accessRoles __type="array"/>
-      <creationDateTime __type="object" __classname="DateTime">2020-03-15T08:08:18+00:00</creationDateTime>
-      <lastModificationDateTime __type="object" __classname="DateTime">2020-03-15T08:08:43+00:00</lastModificationDateTime>
-      <lastPublicationDateTime __type="object" __classname="DateTime">2020-03-15T08:08:39+00:00</lastPublicationDateTime>
+      <creationDateTime __type="object" __classname="DateTime">2020-05-30T07:44:11+02:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2020-05-30T07:44:58+02:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2020-05-30T07:44:55+02:00</lastPublicationDateTime>
       <properties>
-       <uriPathSegment __type="string">404</uriPathSegment>
+       <uriPathSegment __type="string">seite-nicht-gefunden</uriPathSegment>
+       <metaRobotsNoindex __type="boolean">1</metaRobotsNoindex>
+       <metaRobotsNofollow __type="boolean">1</metaRobotsNofollow>
        <noSubMenu __type="boolean"></noSubMenu>
        <onlyicon __type="boolean"></onlyicon>
        <title __type="string">Seite nicht gefunden</title>
-       <metaRobotsNoindex __type="boolean">1</metaRobotsNoindex>
-       <metaRobotsNofollow __type="boolean">1</metaRobotsNofollow>
       </properties>
      </variant>
-     <node identifier="64a2fd49-58eb-ef33-0b18-df8985923e7a" nodeName="footer">
+     <node identifier="da0bc2de-f111-0f71-4ce6-1a7d65591245" nodeName="footer">
       <variant sortingIndex="200" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>de</language>
        </dimensions>
        <accessRoles __type="array"/>
-       <creationDateTime __type="object" __classname="DateTime">2020-03-15T08:08:18+00:00</creationDateTime>
-       <lastModificationDateTime __type="object" __classname="DateTime">2020-03-15T08:08:43+00:00</lastModificationDateTime>
-       <lastPublicationDateTime __type="object" __classname="DateTime">2020-03-15T08:08:39+00:00</lastPublicationDateTime>
+       <creationDateTime __type="object" __classname="DateTime">2020-05-30T07:44:11+02:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2020-05-30T07:44:58+02:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2020-05-30T07:44:55+02:00</lastPublicationDateTime>
        <properties/>
       </variant>
      </node>
-     <node identifier="a2905187-2dd7-847e-c12b-0899458a20cb" nodeName="main">
+     <node identifier="dbe0f2fb-d135-9705-d5e9-0d9b645796be" nodeName="main">
       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>de</language>
        </dimensions>
        <accessRoles __type="array"/>
-       <creationDateTime __type="object" __classname="DateTime">2020-03-15T08:08:18+00:00</creationDateTime>
-       <lastModificationDateTime __type="object" __classname="DateTime">2020-03-15T08:08:43+00:00</lastModificationDateTime>
-       <lastPublicationDateTime __type="object" __classname="DateTime">2020-03-15T08:08:39+00:00</lastPublicationDateTime>
+       <creationDateTime __type="object" __classname="DateTime">2020-05-30T07:44:11+02:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2020-05-30T07:44:58+02:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2020-05-30T07:44:55+02:00</lastPublicationDateTime>
        <properties/>
       </variant>
-      <node identifier="2bcd5598-aabb-48b6-9531-2aa7b75c780e" nodeName="node-o4tvep8wij0dn">
-       <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Text" version="3" removed="" hidden="" hiddenInIndex="">
+      <node identifier="42101b80-576f-4e31-8e1a-38053879a825" nodeName="node-0e3n1b0gouwwd">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Headline" version="3" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>de</language>
         </dimensions>
         <accessRoles __type="array"/>
-        <creationDateTime __type="object" __classname="DateTime">2020-03-15T08:08:58+00:00</creationDateTime>
-        <lastModificationDateTime __type="object" __classname="DateTime">2020-03-15T08:09:10+00:00</lastModificationDateTime>
-        <lastPublicationDateTime __type="object" __classname="DateTime">2020-03-15T08:09:07+00:00</lastPublicationDateTime>
+        <creationDateTime __type="object" __classname="DateTime">2020-05-30T07:44:28+02:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2020-05-30T07:44:58+02:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2020-05-30T07:44:55+02:00</lastPublicationDateTime>
         <properties>
          <animation __type="string"></animation>
          <delay __type="string">0</delay>
@@ -297,9 +198,106 @@
          <pb __type="string"></pb>
          <pl __type="string"></pl>
          <pr __type="string"></pr>
-         <tooltipposition __type="string"></tooltipposition>
+         <tooltipposition __type="string">top</tooltipposition>
          <containerwidth __type="string">container</containerwidth>
-         <text __type="string">&lt;p&gt;Seite nicht gefunden&lt;/p&gt;</text>
+         <title __type="string">&lt;h1&gt;Seite nicht gefunden&lt;/h1&gt;</title>
+         <textBsColor __type="string"></textBsColor>
+        </properties>
+       </variant>
+      </node>
+     </node>
+    </node>
+    <node identifier="90c7a6e1-8ca6-4403-ae46-c9f5cc93d5b6" nodeName="node-qq12kfkgzyudo">
+     <variant sortingIndex="350" workspace="live" nodeType="Raw.Site:Document.Page" version="4" removed="" hidden="" hiddenInIndex="1">
+      <dimensions>
+       <language>de</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2020-05-30T07:43:57+02:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2020-05-30T07:51:10+02:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2020-05-30T07:51:07+02:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">datenschutz</uriPathSegment>
+       <noSubMenu __type="boolean"></noSubMenu>
+       <onlyicon __type="boolean"></onlyicon>
+       <title __type="string">Datenschutz</title>
+       <metaRobotsNoindex __type="boolean">1</metaRobotsNoindex>
+       <metaRobotsNofollow __type="boolean">1</metaRobotsNofollow>
+      </properties>
+     </variant>
+     <node identifier="ff08541e-fc00-3a7c-07eb-4dcb73c97167" nodeName="footer">
+      <variant sortingIndex="200" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>de</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2020-05-30T07:43:57+02:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2020-05-30T07:45:03+02:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2020-05-30T07:45:00+02:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
+     </node>
+     <node identifier="1522f1ff-aa24-b203-5f7a-87e30ba02834" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>de</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2020-05-30T07:43:57+02:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2020-05-30T07:45:03+02:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2020-05-30T07:45:00+02:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
+      <node identifier="298b1b8d-4795-443f-a0b1-80d33c53fd73" nodeName="node-roovyb869wff8">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Headline" version="6" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>de</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2020-05-30T07:47:12+02:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2020-05-30T07:49:07+02:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2020-05-30T07:49:04+02:00</lastPublicationDateTime>
+        <properties>
+         <animation __type="string"></animation>
+         <delay __type="string">0</delay>
+         <mt __type="string"></mt>
+         <mb __type="string"></mb>
+         <ml __type="string"></ml>
+         <mr __type="string"></mr>
+         <pt __type="string"></pt>
+         <pb __type="string"></pb>
+         <pl __type="string"></pl>
+         <pr __type="string"></pr>
+         <tooltipposition __type="string">top</tooltipposition>
+         <containerwidth __type="string">container</containerwidth>
+         <title __type="string">&lt;h1&gt;Datenschutzerklärung&lt;/h1&gt;</title>
+         <textBsColor __type="string"></textBsColor>
+        </properties>
+       </variant>
+      </node>
+      <node identifier="002e1b07-7c1f-44d7-8e9c-5fa49db8ac4b" nodeName="node-wz4xedcwn48v3">
+       <variant sortingIndex="150" workspace="live" nodeType="Neos.NodeTypes:Text" version="20" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>de</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2020-05-30T07:47:37+02:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2020-05-30T07:50:22+02:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2020-05-30T07:50:19+02:00</lastPublicationDateTime>
+        <properties>
+         <animation __type="string"></animation>
+         <delay __type="string">0</delay>
+         <mt __type="string"></mt>
+         <mb __type="string"></mb>
+         <ml __type="string"></ml>
+         <mr __type="string"></mr>
+         <pt __type="string"></pt>
+         <pb __type="string"></pb>
+         <pl __type="string"></pl>
+         <pr __type="string"></pr>
+         <tooltipposition __type="string">top</tooltipposition>
+         <containerwidth __type="string">container</containerwidth>
+         <text __type="string">&lt;p&gt;Der Schutz Ihrer persönlichen Daten ist uns ein besonderes Anliegen. Wir verarbeiten Ihre Daten daher ausschließlich auf Grundlage der gesetzlichen Bestimmungen (DSGVO, TKG 2003). In diesen Datenschutzinformationen informieren wir Sie über die wichtigsten Aspekte der Datenverarbeitung im Rahmen unserer Website.&lt;/p&gt;&lt;h5&gt;Kontakt mit uns&lt;/h5&gt;&lt;p&gt;Wenn Sie per Formular auf der Website oder per E-Mail Kontakt mit uns aufnehmen, werden die von Ihnen angegebenen Daten (Vorname, Nachname, Firma, Email-Adresse) zur Bearbeitung der Anfrage und für den Fall von Anschlussfragen 6 Monaten bei uns gespeichert, jedoch nicht am Webserver. Dieses Formular versendet lediglich Ihre Anfrage und speichert dies auf keinen Fall in der Datenbank. Diese Daten geben wir nicht ohne Ihre Einwilligung weiter.&lt;/p&gt;&lt;h5&gt;Cookies&lt;/h5&gt;&lt;p&gt;Unsere Website verwendet so genannte Cookies. Dabei handelt es sich um kleine Textdateien, die mit Hilfe des Browsers auf Ihrem Endgerät abgelegt werden. Sie richten keinen Schaden an.&lt;/p&gt;&lt;p&gt;Wir nutzen Cookies dazu, unser Angebot nutzerfreundlich zu gestalten. Einige Cookies bleiben auf Ihrem Endgerät gespeichert, bis Sie diese löschen. Sie ermöglichen es uns, Ihren Browser beim nächsten Besuch wiederzuerkennen.&lt;/p&gt;&lt;p&gt;Wenn Sie dies nicht wünschen, so können Sie Ihren Browser so einrichten, dass er Cookies gänzlich deaktiviert oder Sie über das Setzen von Cookies informiert und Sie dies nur im Einzelfall erlauben. Bei der Deaktivierung von Cookies kann die Funktionalität unserer Website eingeschränkt sein.&lt;/p&gt;&lt;h5&gt;Google Analytics, Web-Analyse&lt;/h5&gt;&lt;p&gt;Diese Website benutzt Google Analytics, einen Webanalysedienst der Google Inc. (&quot;Google&quot;). Wir haben mit dem Anbieter einen entsprechenden Vertrag zur Auftragsdatenverarbeitung abgeschlossen. Die Beziehung zum Webanalyseanbieter basiert auf dem Angemessenheitsbeschluss der Europäischen Komission (&quot;Privacy Shield&quot;). Die Datenverarbeitung erfolgt auf Basis der gesetzlichen Bestimmungen des § 96 Abs 3 TKG sowie des Art 6 Abs 1 lit a (Einwilligung) und f (berechtigtes Interesse) der DSGVO.&lt;/p&gt;&lt;p&gt;Google Analytics verwendet sog. &quot;Cookies&quot;, Textdateien, die auf Ihrem Computer gespeichert werden und die eine Analyse der Benutzung der Website durch Sie ermöglichen. Sie können dies verhindern, indem Sie Ihren Browser so einrichten, dass keine Cookies gespeichert werden. Wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht sämtliche Funktionen dieser Website vollumfänglich nutzen können.&lt;/p&gt;&lt;p&gt;Die durch den Cookie erzeugten Informationen über Ihre Benutzung dieser Website (einschließlich Ihrer IP-Adresse) werden an einen Server von Google in den USA übertragen und dort gespeichert. Google wird diese Informationen benutzen, um Ihre Nutzung der Website auszuwerten, um Reports über die Websiteaktivitäten für die Websitebetreiber zusammenzustellen und um weitere mit der Websitenutzung und der Internetnutzung verbundene Dienstleistungen zu erbringen. Auch wird Google diese Informationen gegebenenfalls an Dritte übertragen, sofern dies gesetzlich vorgeschrieben ist oder soweit Dritte diese Daten im Auftrag von Google verarbeiten. Google wird in keinem Fall Ihre IP-Adresse mit anderen Daten von Google in Verbindung bringen.&lt;/p&gt;&lt;p&gt;Durch die Nutzung dieser Website erklären Sie sich mit der Bearbeitung der über Sie erhobenen Daten durch Google in der zuvor beschriebenen Art und Weise und zu dem zuvor benannten Zweck einverstanden. Der Datenerhebung und -speicherung kann jederzeit mit Wirkung für die Zukunft widersprochen werden.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://tools.google.com/dlpage/gaoptout?hl=de&quot; target=&quot;_blank&quot;&gt;https://tools.google.com/dlpage/gaoptout?hl=de&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Diese Website verwendet Google Analytics mit der Erweiterung &quot;_anonymizeIp()&quot;, wodurch IP-Adressen nur gekürzt weiterverarbeitet werden, um eine direkte Personenbeziehbarkeit auszuschließen. Für weitere Informationen klicken Sie bitte auf folgenden Link: &lt;a href=&quot;http://www.google.com/privacy/privacy-policy.html&quot; target=&quot;_blank&quot;&gt;http://www.google.com/privacy/privacy-policy.html&lt;/a&gt;&lt;/p&gt;&lt;h5&gt;Ihre Rechte&lt;/h5&gt;&lt;p&gt;Ihnen stehen grundsätzlich die Rechte auf Auskunft, Berichtigung, Löschung, Einschränkung, Datenübertragbarkeit, Widerruf und Widerspruch zu. Wenn Sie glauben, dass die Verarbeitung Ihrer Daten gegen das Datenschutzrecht verstößt oder Ihre datenschutzrechtlichen Ansprüche sonst in einer Weise verletzt worden sind, können Sie sich bei der Aufsichtsbehörde beschweren. In Österreich ist dies die Datenschutzbehörde.&lt;/p&gt;&lt;h5&gt;Sie erreichen uns unter folgenden Kontaktdaten&lt;/h5&gt;&lt;p&gt;foobar&lt;/p&gt;</text>
          <textBsColor __type="string"></textBsColor>
         </properties>
        </variant>
