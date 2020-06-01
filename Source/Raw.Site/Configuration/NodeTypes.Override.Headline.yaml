@@ -1,0 +1,7 @@
+'Neos.NodeTypes:Headline':
+  properties:
+    title:
+      ui:
+        inline:
+          editorOptions:
+            hyphens: true

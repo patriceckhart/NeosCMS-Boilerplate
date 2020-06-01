@@ -23,6 +23,9 @@ Neos:
   Neos:
     userInterface:
       defaultLanguage: de
+      navigateComponent:
+        nodeTree:
+          loadingDepth: 1
       # translation:
       #   autoInclude:
       #     Raw.Site:
