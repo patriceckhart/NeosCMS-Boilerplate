@@ -9,11 +9,12 @@
     nodeTypes:
       'Raw.Site:Document.HomePage': false
       'Neos.NodeTypes:Page': false
-  properties:
-    hideFromMainMenu:
-      type: boolean
-      ui:
-        label: i18n
-        reloadPageIfChanged: true
-        inspector:
-          group: visibility
+      'NeosRulez.Shop:Cart': true
+#  properties:
+#    hideFromMainMenu:
+#      type: boolean
+#      ui:
+#        label: i18n
+#        reloadPageIfChanged: true
+#        inspector:
+#          group: visibility
