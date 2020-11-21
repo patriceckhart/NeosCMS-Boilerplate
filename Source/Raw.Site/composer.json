@@ -23,7 +23,9 @@
         "shel/neos-hyphens": "*",
         "neos/fusion-form": "^1.0",
         "neosrulez/folder": "^1.0",
-        "neosrulez/category": "^1.0"
+        "neosrulez/category": "^1.0",
+        "neosrulez/react-cookieoptin": "^1.0",
+        "neosrulez/hybridauth": "*"
     },
     "autoload": {
         "psr-4": {
