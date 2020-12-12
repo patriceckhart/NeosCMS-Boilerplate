@@ -4,8 +4,8 @@ if( p === 'iPad' || p === 'iPhone' || p === 'iPod' ){
 }
 
 function resize() {
-    winWidth = $(window).width();
-    winHeight = $(window).width();
+    $winWidth = $(window).width();
+    $winHeight = $(window).height();
 
     $(window).scroll(function() {
         var scrollPos = $(document).scrollTop();

@@ -5,3 +5,7 @@
     label: 'Seite'
     icon: icon-file-o
     position: 100
+    inspector:
+      groups:
+        document:
+          icon: icon-file-o

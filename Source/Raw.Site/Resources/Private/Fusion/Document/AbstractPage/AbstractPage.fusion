@@ -1,5 +1,6 @@
 prototype(Raw.Site:Document.AbstractPage) < prototype(Neos.Neos:Page) {
     head {
+        NeosRulezBootstrapMetaData >
         headTags = Neos.Fusion:Component {
             renderer = afx`
                 <meta http-equiv="x-ua-compatible" content="ie=edge" />
@@ -12,6 +13,18 @@ prototype(Raw.Site:Document.AbstractPage) < prototype(Neos.Neos:Page) {
             inline = FALSE
             format = 'compressed'
             outputFolder = 'resource://Raw.Site/Public/Styles/'
+        }
+        backendCss = Neos.Fusion:Tag {
+            @process.1 = ${node.context.workspaceName != 'live' ? value : ''}
+            @position = 'end'
+            tagName = 'link'
+            attributes {
+                media = 'all'
+                rel = 'stylesheet'
+                href = Neos.Fusion:ResourceUri {
+                    path = 'resource://Raw.Site/Public/Styles/backend.css'
+                }
+            }
         }
         titleTag = Neos.Fusion:Tag {
             tagName = 'title'

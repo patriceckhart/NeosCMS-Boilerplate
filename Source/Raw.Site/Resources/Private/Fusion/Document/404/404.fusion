@@ -5,7 +5,7 @@ prototype(Raw.Site:Document.404) < prototype(Raw.Site:Document.AbstractPage) {
         }
 
         renderer = afx`
-            <main class="main">
+            <main id="errorpage" class="main">
                 {props.main}
             </main>
         `

@@ -5,6 +5,10 @@
     label: i18n
     icon: icon-exclamation-triangle
     position: 'end'
+    inspector:
+      groups:
+        document:
+          icon: icon-exclamation-triangle
   properties:
     _hiddenInIndex:
       type: boolean
