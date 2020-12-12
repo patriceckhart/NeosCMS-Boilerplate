@@ -1,1 +1,10 @@
-prototype(NeosRulez.SlickCarousel:Component.AbstractContent) < prototype(Raw.Site:Component.AbstractContent)
+prototype(NeosRulez.SlickCarousel:Component.AbstractContent) {
+    nodetype = ${String.replace(String.replace(String.toLowerCase(node.nodetype), '.', '-'), ':', '-')}
+    renderer = afx`
+        <Raw.Site:Component.AbstractContent>
+            <div class={props.nodetype} >
+                {props.content}
+            </div>
+        </Raw.Site:Component.AbstractContent>
+    `
+}
