@@ -2,7 +2,39 @@
   abstract: true
   ui:
     inspector:
-      groups:
-        general:
+      tabs:
+        jumbotron:
           label: i18n
-          icon: icon-cogs
+          icon: far fa-image
+          position: 'end'
+      groups:
+        jumbotron:
+          label: i18n
+          icon: far fa-image
+          tab: jumbotron
+  properties:
+    jumbotronImage:
+      type: 'Neos\Media\Domain\Model\ImageInterface'
+      ui:
+        label: i18n
+        reloadIfChanged: true
+        inspector:
+          group: 'jumbotron'
+          position: 1
+          editorOptions:
+            features:
+              mediaBrowser: true
+              crop: true
+              resize: false
+    showPageTitle:
+      type: boolean
+      defaultValue: false
+      ui:
+        label: i18n
+        reloadIfChanged: true
+        inspector:
+          group: 'jumbotron'
+          position: 2
+    title:
+      ui:
+        inlineEditable: 'ClientEval:documentNode.properties.showPageTitle ? true : false'

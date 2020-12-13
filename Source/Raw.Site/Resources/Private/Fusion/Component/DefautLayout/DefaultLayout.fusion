@@ -3,6 +3,7 @@ prototype(Raw.Site:Component.DefaultLayout) < prototype(Neos.Fusion:Component) {
     renderer = afx`
         <Raw.Site:Component.Analytics />
         <Raw.Site:Component.Header />
+        <Raw.Site:Component.Jumbotron />
         {props.content}
         <Raw.Site:Component.Footer />
         <NeosRulez.React.CookieOptIn:Component.Modal />

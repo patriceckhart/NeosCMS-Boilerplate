@@ -2,6 +2,7 @@
   abstract: true
   superTypes:
     'Neos.Neos:Document': true
+    'Raw.Site:Mixin.InspectorGeneral': true
   childNodes:
     main:
       type: 'Neos.Neos:ContentCollection'
@@ -10,11 +11,3 @@
       'Raw.Site:Document.HomePage': false
       'Neos.NodeTypes:Page': false
       'NeosRulez.Shop:Cart': true
-#  properties:
-#    hideFromMainMenu:
-#      type: boolean
-#      ui:
-#        label: i18n
-#        reloadPageIfChanged: true
-#        inspector:
-#          group: visibility

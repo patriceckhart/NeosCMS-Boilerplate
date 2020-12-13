@@ -8,6 +8,7 @@ strong { }
 h1, h2, h3, h4, h5, h6 { }
 
 .container-fluid { padding-left:0; padding-right:0; }
+.jumbotron { height:auto; padding:0; background:none; margin-bottom:0; }
 
 button, a, .btn, .form-control {
   &:active, &:focus { outline: none !important; box-shadow: none !important; }

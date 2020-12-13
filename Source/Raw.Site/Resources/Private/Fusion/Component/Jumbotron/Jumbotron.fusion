@@ -1,0 +1,24 @@
+prototype(Raw.Site:Component.Jumbotron) < prototype(Neos.Fusion:Component) {
+
+    image = ${documentNode.properties.jumbotronImage}
+    showPageTitle = ${documentNode.properties.showPageTitle}
+    jumbotronClass = ${this.showPageTitle ? 'position-relative jumbotron' : 'jumbotron'}
+
+    renderer = afx`
+        <div @if.render={props.image} class={props.jumbotronClass} >
+            <div @if.render={props.showPageTitle} class="position-absolute w-100 h-100">
+                <div class="row h-100 align-items-center">
+                    <div class="col-12">
+                        <h1 class="text-white text-center">
+                            <Neos.Neos:Editable property="title" />
+                        </h1>
+                    </div>
+                </div>
+            </div>
+            <Neos.Neos:ImageTag asset={props.image} width="2000" allowUpScaling="true" allowCropping="true" attributes.class="img-fluid img-fullwidth" />
+        </div>
+    `
+    renderer.@process.contentElementWrapping = Neos.Neos:ContentElementWrapping {
+        node = ${documentNode}
+    }
+}
