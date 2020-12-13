@@ -5,5 +5,6 @@ prototype(Raw.Site:Component.DefaultLayout) < prototype(Neos.Fusion:Component) {
         <Raw.Site:Component.Header />
         {props.content}
         <Raw.Site:Component.Footer />
+        <NeosRulez.React.CookieOptIn:Component.Modal />
     `
 }
