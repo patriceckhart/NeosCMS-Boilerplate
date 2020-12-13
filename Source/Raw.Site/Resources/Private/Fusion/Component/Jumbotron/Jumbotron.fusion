@@ -7,8 +7,8 @@ prototype(Raw.Site:Component.Jumbotron) < prototype(Neos.Fusion:Component) {
     renderer = afx`
         <div @if.render={props.image} class={props.jumbotronClass} >
             <div @if.render={props.showPageTitle} class="position-absolute w-100 h-100">
-                <div class="row h-100 align-items-center">
-                    <div class="col-12">
+                <div class="d-flex h-100 align-items-center">
+                    <div class="d-block w-100">
                         <h1 class="text-white text-center">
                             <Neos.Neos:Editable property="title" />
                         </h1>
