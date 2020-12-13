@@ -4,11 +4,11 @@ NeosRulez:
     # headerLogoPackage: 'Raw.Site'
     # headerLogoAltText: 'Raw.Site'
     navbarAlignment: 'right'
-    navbarFluid: FALSE
-    navbarSticky: TRUE
+    navbarFluid: false
+    navbarSticky: true
     navbarBackground: 'bg-white'
     navbarBreakpoint: 'lg'
-    navbarHover: TRUE
+    navbarHover: true
     colors:
       primary: '#563D7C'
       secondary: '#6c757d'
