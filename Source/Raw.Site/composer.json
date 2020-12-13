@@ -25,8 +25,7 @@
         "neosrulez/folder": "^1.0",
         "neosrulez/category": "^1.0",
         "neosrulez/react-cookieoptin": "^1.0",
-        "neosrulez/hybridauth": "*",
-        "flownative/neos-cachemanagement": "2.1"
+        "neosrulez/hybridauth": "*"
     },
     "autoload": {
         "psr-4": {
