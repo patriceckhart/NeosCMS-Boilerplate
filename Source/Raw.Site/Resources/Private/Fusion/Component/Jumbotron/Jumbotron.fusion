@@ -15,7 +15,7 @@ prototype(Raw.Site:Component.Jumbotron) < prototype(Neos.Fusion:Component) {
                     </div>
                 </div>
             </div>
-            <Neos.Neos:ImageTag asset={props.image} width="2000" allowUpScaling="true" allowCropping="true" attributes.class="img-fluid img-fullwidth" />
+            <Neos.Neos:ImageTag asset={props.image} width="2000" height="500" allowUpScaling="true" allowCropping="true" attributes.class="img-fluid img-fullwidth" />
         </div>
     `
     renderer.@process.contentElementWrapping = Neos.Neos:ContentElementWrapping {

@@ -34,7 +34,8 @@
         reloadIfChanged: true
         inspector:
           group: 'jumbotron'
+          hidden: 'ClientEval:node.properties.jumbotronImage ? false : true'
           position: 2
     title:
       ui:
-        inlineEditable: 'ClientEval:documentNode.properties.showPageTitle ? true : false'
+        inlineEditable: 'ClientEval:node.properties.showPageTitle ? true : false'
