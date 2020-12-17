@@ -15,7 +15,6 @@
         "neos/neos-ui": "^7.0",
         "neos/neos-ui-compiled": "*",
         "moc/notfound": "*",
-        "moc/synchronizeurl": "~2.0",
         "neos/swiftmailer": "*",
         "flownative/neos-compressor": "*",
         "neosrulez/bootstrap": "^3.3",
