@@ -3,16 +3,16 @@
     "description": "Neos CMS Website",
     "type": "neos-site",
     "require": {
-        "neos/neos": "~5.3.0",
-        "neos/site-kickstarter": "~5.3.0",
-        "neos/nodetypes": "^5.3",
+        "neos/neos": "~7.0.0",
+        "neos/site-kickstarter": "~7.0.0",
+        "neos/nodetypes": "^7.0",
         "neos/seo": "*",
-        "neos/setup": "^4.1",
-        "neos/neos-setup": "^1.0",
+        "neos/setup": "^5.0",
+        "neos/neos-setup": "^1.1",
         "neos/redirecthandler-neosadapter": "*",
         "neos/redirecthandler-databasestorage": "*",
         "neos/redirecthandler-ui": "*",
-        "neos/neos-ui": "~5.2",
+        "neos/neos-ui": "^7.0",
         "neos/neos-ui-compiled": "*",
         "moc/notfound": "*",
         "moc/synchronizeurl": "~2.0",
@@ -35,7 +35,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "4.0.x-dev"
+            "dev-master": "7.0.x-dev"
         },
         "neos": {
             "package-key": "Raw.Site"
