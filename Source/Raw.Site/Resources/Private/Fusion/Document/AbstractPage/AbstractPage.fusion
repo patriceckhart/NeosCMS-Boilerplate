@@ -7,13 +7,6 @@ prototype(Raw.Site:Document.AbstractPage) < prototype(Neos.Neos:Page) {
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
             `
         }
-        appCss = NeosRulez.ScssParser:ScssFile
-        appCss {
-            source = 'resource://Raw.Site/Private/Styles/app.scss'
-            inline = FALSE
-            format = 'compressed'
-            outputFolder = 'resource://Raw.Site/Public/Styles/'
-        }
         backendCss = Neos.Fusion:Tag {
             @process.1 = ${node.context.workspaceName != 'live' ? value : ''}
             @position = 'end'
@@ -35,12 +28,5 @@ prototype(Raw.Site:Document.AbstractPage) < prototype(Neos.Neos:Page) {
         content = ''
         @process.replaceQuotationMarks1 = ${String.replace(value, '„', '"')}
         @process.replaceQuotationMarks2 = ${String.replace(value, '“', '"')}
-    }
-    appJs = NeosRulez.JsMinifier:JsFile
-    appJs {
-        @position = 'after NeosRulezBootstrapJs'
-        source = 'resource://Raw.Site/Private/JavaScript/app.js'
-        inline = FALSE
-        outputFolder = 'resource://Raw.Site/Public/JavaScript/'
     }
 }

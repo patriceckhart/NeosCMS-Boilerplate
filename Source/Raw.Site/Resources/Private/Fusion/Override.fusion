@@ -8,3 +8,12 @@ prototype(NeosRulez.SlickCarousel:Component.AbstractContent) {
         </Raw.Site:Component.AbstractContent>
     `
 }
+
+prototype(Neos.Neos:Page) {
+    NeosRulezBootstrapTheme >
+    head {
+        NeosRulezBootstrapCss >
+        NeosRulezBootstrapJsDatedropperJs >
+    }
+    NeosRulezBootstrapJs >
+}

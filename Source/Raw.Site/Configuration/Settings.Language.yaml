@@ -14,7 +14,7 @@ Neos:
             label: Deutsch
             values:
               - de
-            uriSegment: 'de'
+            uriSegment: ''
           # en:
           #   label: English
           #   values:

@@ -1,0 +1,13 @@
+NeosRulez:
+  DynamicResources:
+    site:
+      resources:
+        head:
+          styles:
+            appCss: 'resource://Raw.Site/Private/Styles/app.scss'
+          scripts:
+            dateDropperJs: 'resource://NeosRulez.Bootstrap/Private/JavaScript/datedropper.pro.min.js'
+        footer:
+          scripts:
+            bootstrapJs: 'resource://NeosRulez.Bootstrap/Private/JavaScript/scripts.js'
+            appJs: 'resource://Raw.Site/Private/JavaScript/app.js'
