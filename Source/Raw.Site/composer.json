@@ -18,7 +18,7 @@
         "neos/swiftmailer": "*",
         "flownative/neos-compressor": "*",
         "neosrulez/bootstrap": "^3.3",
-        "neosrulez/slickcarousel": "^1.0",
+        "neosrulez/slickcarousel": "^2.1",
         "dl/assetsource-pexels": "^1.5",
         "shel/neos-hyphens": "*",
         "neos/fusion-form": "^1.0",
