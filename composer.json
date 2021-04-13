@@ -5,12 +5,12 @@
 		"vendor-dir": "Packages/Libraries",
 		"bin-dir": "bin"
 	},
-	"repositories": [
-		{
-			"type": "path",
-			"url": "Source/Raw.Site"
-		}
-	],
+	"repositories": {
+        "distributionPackages": {
+            "type": "path",
+            "url": "./DistributionPackages/*"
+        }
+    },
 	"minimum-stability": "dev",
 	"prefer-stable": true,
 	"require": {
