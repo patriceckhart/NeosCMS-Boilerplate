@@ -1,6 +1,5 @@
 prototype(Raw.Site:Document.AbstractPage) < prototype(Neos.Neos:Page) {
     head {
-        NeosRulezBootstrapMetaData >
         headTags = Neos.Fusion:Component {
             renderer = afx`
                 <meta http-equiv="x-ua-compatible" content="ie=edge" />

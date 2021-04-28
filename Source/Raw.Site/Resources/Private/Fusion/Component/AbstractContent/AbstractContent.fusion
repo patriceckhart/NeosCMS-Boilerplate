@@ -1,1 +1,1 @@
-prototype(Raw.Site:Component.AbstractContent) < prototype(NeosRulez.Bootstrap:Content.AbstractContent)
+prototype(Raw.Site:Component.AbstractContent) < prototype(NeosRulez.Bootstrap:Component.AbstractContent)

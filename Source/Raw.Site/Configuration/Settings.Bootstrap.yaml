@@ -1,11 +1,32 @@
 NeosRulez:
   Bootstrap:
     headerLogoPath: 'Images/Logo.svg'
-    # headerLogoPackage: 'Raw.Site'
-    # headerLogoAltText: 'Raw.Site'
+    headerLogoPackage: 'Raw.Site'
+    headerLogoAltText: 'Raw.Site'
     navbarAlignment: 'right'
     navbarFluid: false
     navbarSticky: true
     navbarBackground: 'bg-white'
     navbarBreakpoint: 'lg'
     navbarHover: true
+    clickableParent: true
+  DynamicResources:
+    site:
+      resources:
+        head:
+          styles:
+            variables: 'resource://Raw.Site/Private/Styles/variables.scss'
+            animateCss: 'resource://NeosRulez.Bootstrap/Private/Styles/animate.css'
+            neosrulezBootstrapCss: 'resource://NeosRulez.Bootstrap/Private/Styles/styles.scss'
+            typekitCss1: 'https://use.typekit.net/jqo0wro.css'
+            typekitCss2: 'https://use.typekit.net/boo2yul.css'
+            appCss: 'resource://Raw.Site/Private/Styles/app.scss'
+        footer:
+          scripts:
+            fsLightboxJs: 'resource://NeosRulez.Bootstrap/Private/JavaScript/fslightbox.js'
+            neosrulezBootstrapJs: 'resource://NeosRulez.Bootstrap/Private/JavaScript/bootstrap.js'
+            jQuery: 'resource://NeosRulez.Bootstrap/Private/JavaScript/jquery-3.6.0.js'
+            waypointsJs: 'resource://NeosRulez.Bootstrap/Private/JavaScript/waypoints.js'
+            parallaxJs: 'resource://NeosRulez.Bootstrap/Private/JavaScript/parallax.js'
+            neosrulezBootstrapAdditionalJs: 'resource://NeosRulez.Bootstrap/Private/JavaScript/scripts.js'
+            appJs: 'resource://Raw.Site/Private/JavaScript/app.js'
