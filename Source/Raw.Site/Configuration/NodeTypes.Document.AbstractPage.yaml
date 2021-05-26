@@ -10,4 +10,3 @@
     nodeTypes:
       'Raw.Site:Document.HomePage': false
       'Neos.NodeTypes:Page': false
-      'NeosRulez.Shop:Cart': true

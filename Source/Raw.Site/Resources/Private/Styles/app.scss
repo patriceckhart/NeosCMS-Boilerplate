@@ -1,4 +1,7 @@
 @import "variables";
+@import "scss/bootstrap";
+@import "override";
+@import "scss/vendor/rfs";
 
 @mixin transition($property) { transition: all $property; -webkit-transition: all $property; -moz-transition: all $property; }
 @mixin scale($propertyScale) { -webkit-transform: scale($propertyScale); -moz-transform: scale($propertyScale); -ms-transform: scale($propertyScale); -o-transform: scale($propertyScale); transform: scale($propertyScale); }
@@ -7,33 +10,12 @@ body { -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale; }
 strong { }
 h1, h2, h3, h4, h5, h6 { }
 
-.container-fluid { padding-left:0; padding-right:0; }
-.jumbotron { height:auto; padding:0; background:none; margin-bottom:0; }
-
-button, a, .btn, .form-control {
-  &:active, &:focus { outline: none !important; box-shadow: none !important; }
-}
-
-#toggle { display:none; float:right; width:2em; height:15px; position:relative; z-index:999;
-  span { float:left; position:absolute; left:0; top:0; transform: rotate(0deg); width:100%; height:2px; background:$primary; margin-top:2px; margin-bottom:2px; transition: all 0.2s; -webkit-transition: all 0.2s; -moz-transition: all 0.2s;
-    &:nth-child(1) { top:0; }
-    &:nth-child(2) { top:4px; }
-    &:nth-child(3) { top:8px; }
-  }
-  &:hover { cursor: pointer; }
-  &.open span {
-    &:nth-child(1) { display:none; }
-    &:nth-child(2) { transform: rotate(45deg); top:5px; }
-    &:nth-child(3) { transform: rotate(-45deg); top:5px; }
-  }
-}
-
 @media (max-width: 1200px) {
 
 }
 
 @media (max-width: 992px) {
-  #toggle { display:block; }
+
 }
 
 @media (max-width: 768px) {
@@ -43,4 +25,3 @@ button, a, .btn, .form-control {
 @media (max-width: 576px) {
 
 }
-

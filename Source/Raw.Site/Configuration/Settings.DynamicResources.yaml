@@ -4,10 +4,15 @@ NeosRulez:
       resources:
         head:
           styles:
+            animateCss: 'resource://NeosRulez.Bootstrap/Private/Styles/animate.css'
             appCss: 'resource://Raw.Site/Private/Styles/app.scss'
           scripts:
-            dateDropperJs: 'resource://NeosRulez.Bootstrap/Private/JavaScript/datedropper.pro.min.js'
         footer:
           scripts:
-            bootstrapJs: 'resource://NeosRulez.Bootstrap/Private/JavaScript/scripts.js'
+            fsLightboxJs: 'resource://NeosRulez.Bootstrap/Private/JavaScript/fslightbox.js'
+            neosrulezBootstrapJs: 'resource://NeosRulez.Bootstrap/Private/JavaScript/bootstrap.js'
+            jQuery: 'resource://NeosRulez.Bootstrap/Private/JavaScript/jquery-3.6.0.js'
+            waypointsJs: 'resource://NeosRulez.Bootstrap/Private/JavaScript/waypoints.js'
+            parallaxJs: 'resource://NeosRulez.Bootstrap/Private/JavaScript/parallax.js'
+            neosrulezBootstrapAdditionalJs: 'resource://NeosRulez.Bootstrap/Private/JavaScript/scripts.js'
             appJs: 'resource://Raw.Site/Private/JavaScript/app.js'
