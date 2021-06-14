@@ -6,6 +6,5 @@ prototype(Raw.Site:Component.DefaultLayout) < prototype(Neos.Fusion:Component) {
         <Raw.Site:Component.Jumbotron />
         {props.content}
         <Raw.Site:Component.Footer />
-        <NeosRulez.React.CookieOptIn:Component.Modal />
     `
 }
