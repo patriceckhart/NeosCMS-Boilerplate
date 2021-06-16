@@ -24,7 +24,6 @@
         "neos/fusion-form": "^2.0",
         "neosrulez/folder": "^1.0",
         "neosrulez/category": "^1.0",
-        "neosrulez/react-cookieoptin": "^1.0",
         "neosrulez/dynamicresources": "^1.0"
     },
     "autoload": {
