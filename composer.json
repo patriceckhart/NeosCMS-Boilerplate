@@ -18,8 +18,7 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "raw/site": "7.1.x-dev",
-        "neosrulez/dynamicnodetypes": "@dev"
+        "raw/site": "7.2.x-dev"
     },
     "scripts": {
         "post-update-cmd": "Neos\\Flow\\Composer\\InstallerScripts::postUpdateAndInstall",
