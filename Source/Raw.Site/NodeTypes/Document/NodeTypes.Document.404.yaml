@@ -1,4 +1,5 @@
 'Raw.Site:Document.404':
+  label: '${I18n.translate("Raw.Site:NodeTypes.Document.404:ui.label")}'
   superTypes:
     'Raw.Site:Document.AbstractPage': true
   ui:
@@ -29,3 +30,10 @@
       ui:
         inspector:
           group: ~
+    title:
+      defaultValue: '404'
+      ui:
+        inspector:
+          group: document
+          editorOptions:
+            readonly: true
