@@ -7,7 +7,7 @@ Neos:
             defaultUriSuffix: ''
   Neos:
     eventLog:
-      enabled: TRUE
+      enabled: true
     userInterface:
       translation:
         autoInclude:
