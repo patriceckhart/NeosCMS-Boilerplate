@@ -10,10 +10,6 @@
             "type": "path",
             "url": "Source/Raw.Site"
         },
-        "distributionPackages": {
-            "type": "path",
-            "url": "./DistributionPackages/*"
-        }
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
