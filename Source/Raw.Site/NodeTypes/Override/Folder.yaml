@@ -1,0 +1,6 @@
+'NeosRulez.Folder:Document.Folder':
+  constraints:
+    nodeTypes:
+      'Neos.NodeTypes:Page': false
+      'Raw.Site:Document.HomePage': false
+

@@ -1,0 +1,42 @@
+'Raw.Site:Document.404':
+  label: '${I18n.translate("Raw.Site:NodeTypes.Document.404:ui.label")}'
+  superTypes:
+    'Raw.Site:Document.AbstractPage': true
+  ui:
+    label: i18n
+    icon: icon-exclamation-triangle
+    position: end
+    inspector:
+      groups:
+        document:
+          label: Raw.Site:NodeTypes.Document.404:ui.label
+          icon: icon-exclamation-triangle
+  properties:
+    _hiddenInIndex:
+      type: boolean
+      defaultValue: true
+      ui:
+        inspector:
+          group: ~
+    metaRobotsNoindex:
+      type: boolean
+      defaultValue: true
+      ui:
+        inspector:
+          group: ~
+    metaRobotsNofollow:
+      type: boolean
+      defaultValue: true
+      ui:
+        inspector:
+          group: ~
+    title:
+      defaultValue: '404'
+      ui:
+        inspector:
+          group: document
+          editorOptions:
+            readonly: true
+  constraints:
+    nodeTypes:
+      'Neos.Neos:Document': false
