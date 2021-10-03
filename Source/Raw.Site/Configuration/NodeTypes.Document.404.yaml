@@ -4,27 +4,28 @@
   ui:
     label: i18n
     icon: icon-exclamation-triangle
-    position: 'end'
+    position: end
     inspector:
       groups:
         document:
+          label: Raw.Site:NodeTypes.Document.404:ui.label
           icon: icon-exclamation-triangle
   properties:
     _hiddenInIndex:
       type: boolean
-      defaultValue: TRUE
+      defaultValue: true
       ui:
         inspector:
           group: ~
     metaRobotsNoindex:
       type: boolean
-      defaultValue: TRUE
+      defaultValue: true
       ui:
         inspector:
           group: ~
     metaRobotsNofollow:
       type: boolean
-      defaultValue: TRUE
+      defaultValue: true
       ui:
         inspector:
           group: ~

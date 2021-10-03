@@ -5,7 +5,7 @@
     'Raw.Site:Mixin.InspectorGeneral': true
   childNodes:
     main:
-      type: 'Neos.Neos:ContentCollection'
+      type: Neos.Neos:ContentCollection
   constraints:
     nodeTypes:
       'Raw.Site:Document.HomePage': false

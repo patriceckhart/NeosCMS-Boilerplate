@@ -1,25 +1,30 @@
 {
-	"name": "neoscms/boilerplate",
-	"description": "Best practice boilerplate for Neos",
-	"config": {
-		"vendor-dir": "Packages/Libraries",
-		"bin-dir": "bin"
-	},
-	"repositories": [
-		{
-			"type": "path",
-			"url": "Source/Raw.Site"
-		}
-	],
-	"minimum-stability": "dev",
-	"prefer-stable": true,
-	"require": {
-		"raw/site": "7.1.x-dev"
-	},
-	"scripts": {
-		"post-update-cmd": "Neos\\Flow\\Composer\\InstallerScripts::postUpdateAndInstall",
-		"post-install-cmd": "Neos\\Flow\\Composer\\InstallerScripts::postUpdateAndInstall",
-		"post-package-update": "Neos\\Flow\\Composer\\InstallerScripts::postPackageUpdateAndInstall",
-		"post-package-install": "Neos\\Flow\\Composer\\InstallerScripts::postPackageUpdateAndInstall"
-	}
+    "name": "neoscms/boilerplate",
+    "description": "Best practice boilerplate for Neos",
+    "config": {
+        "vendor-dir": "Packages/Libraries",
+        "bin-dir": "bin"
+    },
+    "repositories": {
+        "sitePackage": {
+            "type": "path",
+            "url": "Source/Raw.Site"
+        },
+        "distributionPackages": {
+            "type": "path",
+            "url": "./DistributionPackages/*"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "raw/site": "7.1.x-dev",
+        "neosrulez/dynamicnodetypes": "@dev"
+    },
+    "scripts": {
+        "post-update-cmd": "Neos\\Flow\\Composer\\InstallerScripts::postUpdateAndInstall",
+        "post-install-cmd": "Neos\\Flow\\Composer\\InstallerScripts::postUpdateAndInstall",
+        "post-package-update": "Neos\\Flow\\Composer\\InstallerScripts::postPackageUpdateAndInstall",
+        "post-package-install": "Neos\\Flow\\Composer\\InstallerScripts::postPackageUpdateAndInstall"
+    }
 }
