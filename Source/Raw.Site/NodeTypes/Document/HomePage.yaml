@@ -1,0 +1,14 @@
+'Raw.Site:Document.HomePage':
+  superTypes:
+    'Raw.Site:Document.AbstractPage': true
+  ui:
+    label: i18n
+    icon: fas fa-globe-americas
+    inspector:
+      groups:
+        document:
+          label: Raw.Site:NodeTypes.Document.HomePage:ui.label
+          icon: fas fa-globe-americas
+  childNodes:
+    footer:
+      type: Neos.Neos:ContentCollection

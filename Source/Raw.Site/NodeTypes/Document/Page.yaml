@@ -1,0 +1,12 @@
+'Raw.Site:Document.Page':
+  superTypes:
+    'Raw.Site:Document.AbstractPage': true
+  ui:
+    label: i18n
+    icon: icon-file-o
+    position: 100
+    inspector:
+      groups:
+        document:
+          label: Raw.Site:NodeTypes.Document.Page:ui.label
+          icon: icon-file-o
