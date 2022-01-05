@@ -1,7 +1,7 @@
 @import "variables";
-@import "scss/bootstrap";
-@import "override";
-@import "scss/vendor/rfs";
+@import "../../../../../Packages/Application/NeosRulez.Bootstrap/Resources/Private/Styles/scss/bootstrap";
+@import "../../../../../Packages/Application/NeosRulez.Bootstrap/Resources/Private/Styles/override";
+@import "../../../../../Packages/Application/NeosRulez.Bootstrap/Resources/Private/Styles/scss/vendor/rfs";
 
 @mixin transition($property) { transition: all $property; -webkit-transition: all $property; -moz-transition: all $property; }
 @mixin scale($propertyScale) { -webkit-transform: scale($propertyScale); -moz-transform: scale($propertyScale); -ms-transform: scale($propertyScale); -o-transform: scale($propertyScale); transform: scale($propertyScale); }

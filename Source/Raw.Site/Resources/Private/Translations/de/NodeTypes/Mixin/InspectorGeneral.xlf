@@ -11,8 +11,8 @@
 			<trans-unit id="properties.jumbotronImage" xml:space="preserve">
 				<source>Bild</source>
 			</trans-unit>
-			<trans-unit id="properties.showPageTitle" xml:space="preserve">
-				<source>Seitentitel anzeigen</source>
+			<trans-unit id="properties.showJumbotronTitle" xml:space="preserve">
+				<source>Text anzeigen</source>
 			</trans-unit>
 		</body>
 	</file>
