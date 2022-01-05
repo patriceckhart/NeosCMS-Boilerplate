@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d8054dcbc8ca9ad0bc1349a1b9fcc250",
+    "content-hash": "7647bdbd5505a87c60460e4848e7f122",
     "packages": [
         {
             "name": "behat/transliterator",
@@ -8873,11 +8873,11 @@
         },
         {
             "name": "raw/site",
-            "version": "7.2.x-dev",
+            "version": "7.3.x-dev",
             "dist": {
                 "type": "path",
                 "url": "Source/Raw.Site",
-                "reference": "5bc8c7ae985901f1ac88e2394d778de7d1661e9e"
+                "reference": "0174e7fc16321cc7cc95f2010d764ebea5319618"
             },
             "require": {
                 "dl/assetsource-pexels": "^1.8",
@@ -8907,7 +8907,7 @@
             "type": "neos-site",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "7.2.x-dev"
+                    "dev-master": "7.3.x-dev"
                 },
                 "neos": {
                     "package-key": "Raw.Site"
