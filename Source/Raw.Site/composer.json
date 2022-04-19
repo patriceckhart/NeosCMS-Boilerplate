@@ -4,6 +4,7 @@
     "type": "neos-site",
     "require": {
         "neos/neos": "~8.0.0",
+        "neos/site-kickstarter": "~8.0.0",
         "neos/neos-ui": "~8.0.0",
         "neos/seo": "~3.0",
         "neos/redirecthandler-neosadapter": "~4.2",
@@ -26,7 +27,6 @@
         "neosrulez/dynamicresources": "^1.0"
     },
     "require-dev": {
-        "neos/site-kickstarter": "~8.0.0",
         "neos/buildessentials": "~8.0.0",
         "mikey179/vfsstream": "^1.6",
         "phpunit/phpunit": "^9.0",
