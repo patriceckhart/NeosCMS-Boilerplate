@@ -15,16 +15,7 @@
         "neos/neos-setup": "@dev",
         "neos/nodetypes": "^8.0",
         "moc/notfound": "*",
-        "neos/swiftmailer": "*",
-        "flownative/neos-compressor": "*",
-        "neosrulez/bootstrap": "^5.0",
-        "neosrulez/slickcarousel": "^3.0",
-        "dl/assetsource-pexels": "^1.8",
-        "shel/neos-hyphens": "^1.2",
-        "neos/fusion-form": "^2.0",
-        "neosrulez/folder": "^1.0",
-        "neosrulez/category": "^1.0",
-        "neosrulez/dynamicresources": "^1.0"
+        "neos/swiftmailer": "*"
     },
     "require-dev": {
         "neos/buildessentials": "~8.0.0",
