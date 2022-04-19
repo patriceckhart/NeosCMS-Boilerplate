@@ -3,29 +3,35 @@
     "description": "Neos CMS Website",
     "type": "neos-site",
     "require": {
-        "neos/neos": "~7.3.0",
-        "neos/site-kickstarter": "~7.3.0",
-        "neos/nodetypes": "^7.3",
+        "neos/neos": "~8.0.0",
+        "neos/neos-ui": "~8.0.0",
         "neos/seo": "~3.0",
-        "neos/cli-setup": "~7.3.0",
-        "neos/setup": "^5.0",
-        "neos/neos-setup": "^1.1",
-        "neos/redirecthandler-neosadapter": "*",
-        "neos/redirecthandler-databasestorage": "*",
-        "neos/redirecthandler-ui": "*",
-        "neos/neos-ui": "~7.3.0",
-        "neos/neos-ui-compiled": "*",
+        "neos/redirecthandler-neosadapter": "~4.2",
+        "neos/redirecthandler-databasestorage": "~5.0",
+        "neos/redirecthandler-ui": "~2.4",
+        "neos/cli-setup": "~8.0.0",
+        "neos/setup": "@dev",
+        "neos/neos-setup": "@dev",
+        "neos/nodetypes": "^8.0",
         "moc/notfound": "*",
         "neos/swiftmailer": "*",
         "flownative/neos-compressor": "*",
         "neosrulez/bootstrap": "^5.0",
         "neosrulez/slickcarousel": "^3.0",
         "dl/assetsource-pexels": "^1.8",
-        "shel/neos-hyphens": "*",
+        "shel/neos-hyphens": "^1.2",
         "neos/fusion-form": "^2.0",
         "neosrulez/folder": "^1.0",
         "neosrulez/category": "^1.0",
         "neosrulez/dynamicresources": "^1.0"
+    },
+    "require-dev": {
+        "neos/site-kickstarter": "~8.0.0",
+        "neos/buildessentials": "~8.0.0",
+        "mikey179/vfsstream": "^1.6",
+        "phpunit/phpunit": "^9.0",
+        "symfony/css-selector": "~2.0",
+        "neos/behat": "~8.0.0"
     },
     "autoload": {
         "psr-4": {
@@ -34,7 +40,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "7.3.x-dev"
+            "dev-master": "8.0.x-dev"
         },
         "neos": {
             "package-key": "Raw.Site"
