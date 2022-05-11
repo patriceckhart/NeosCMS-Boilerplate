@@ -1,0 +1,13 @@
+prototype(Raw.Site:Document.HomePage) < prototype(Raw.Site:Document.AbstractPage) {
+    body.content = Neos.Fusion:Component {
+        main = Neos.Neos:ContentCollection {
+            nodePath = 'main'
+        }
+
+        renderer = afx`
+            <main id="homepage" class="main">
+                {props.main}
+            </main>
+        `
+    }
+}
