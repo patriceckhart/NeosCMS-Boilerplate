@@ -1,9 +1,0 @@
-Neos:
-  Media:
-    assetSources:
-      pexels:
-        assetSource: 'DL\AssetSource\Pexels\AssetSource\PexelsAssetSource'
-        assetSourceOptions:
-          accessKey: youraccesskey
-          defaultSearchTerm: ''
-          copyRightNoticeTemplate: '${"Pexels.com / " + user.name}'
