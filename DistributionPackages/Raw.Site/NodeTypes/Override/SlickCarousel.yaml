@@ -1,0 +1,3 @@
+'NeosRulez.SlickCarousel:Component.SlickCarousel':
+  superTypes:
+    'NeosRulez.Bootstrap:Component.AbstractContent': true

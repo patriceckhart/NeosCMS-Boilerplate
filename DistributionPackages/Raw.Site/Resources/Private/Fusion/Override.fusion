@@ -1,0 +1,14 @@
+prototype(NeosRulez.SlickCarousel:Component.AbstractContent) >
+prototype(NeosRulez.SlickCarousel:Component.AbstractContent) < prototype(Raw.Site:Component.AbstractContent)
+
+prototype(NeosRulez.Bootstrap:Component.Navbar.Toggle) {
+
+    renderer >
+    renderer = afx`
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    `
+}
