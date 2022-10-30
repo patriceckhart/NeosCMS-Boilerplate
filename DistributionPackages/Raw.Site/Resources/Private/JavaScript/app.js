@@ -16,17 +16,7 @@ const resizeDom = () => {
     // });
 }
 
-const handleCartCount = () => {
-    setInterval(() => {
-        const cartCountValue = document.getElementById('cartcount').textContent;
-        if(cartCountValue !== '') {
-            document.getElementById('cartcount').style.display = 'block';
-        }
-    }, 1000);
-}
-
 const doOnDocumentLoaded = () => {
-    handleCartCount();
     resizeDom();
 }
 
