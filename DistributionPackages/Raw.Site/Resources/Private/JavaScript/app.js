@@ -1,34 +1,43 @@
-var iOS = false, p = navigator.platform;
+iOS = false;
+p = navigator.platform;
 if( p === 'iPad' || p === 'iPhone' || p === 'iPod' ){
     iOS = true;
 }
 
-function resize() {
-    $winWidth = $(window).width();
-    $winHeight = $(window).height();
-
-    $(window).scroll(function() {
-        var scrollPos = $(document).scrollTop();
-        if (scrollPos >= 300) {
-
-        } else {
-
-        }
-    });
+const resizeDom = () => {
+    // let winWidth = document.documentElement.clientWidth;
+    // let winHeight = document.documentElement.clientHeight;
+    //
+    // window.addEventListener('scroll', () => {
+    //     let scrollPos = document.scrollTop();
+    //     if (scrollPos >= 300) {
+    //
+    //     }
+    // });
 }
 
-$(document).ready(function(){
+const handleCartCount = () => {
+    setInterval(() => {
+        const cartCountValue = document.getElementById('cartcount').textContent;
+        if(cartCountValue !== '') {
+            document.getElementById('cartcount').style.display = 'block';
+        }
+    }, 1000);
+}
 
-    $('#toggle').click(function(){
-        $(this).toggleClass('open');
-    });
+const doOnDocumentLoaded = () => {
+    handleCartCount();
+    resizeDom();
+}
 
-    resize();
-});
-
-if (iOS == true) {
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', doOnDocumentLoaded);
 } else {
-    $(window).resize(function() {
-        resize();
+    doOnDocumentLoaded();
+}
+
+if (!iOS) {
+    window.addEventListener('resize', () => {
+        resizeDom();
     });
 }
