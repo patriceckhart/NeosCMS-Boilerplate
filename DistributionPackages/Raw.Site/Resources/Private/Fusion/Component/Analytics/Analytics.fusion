@@ -1,18 +1,16 @@
 prototype(Raw.Site:Component.Analytics) < prototype(Neos.Fusion:Component) {
     trackingCode = ${Configuration.setting('Raw.Site.trackingCode')}
-    renderer = Neos.Fusion:Component {
-        trackingId = ${props.trackingCode}
+    @context.trackingCode = ${this.trackingCode}
 
-        code = Neos.Fusion:Join {
-            create = 'window.dataLayer = window.dataLayer || [];'
-            push = 'function gtag(){dataLayer.push(arguments);}'
-            date = 'gtag("js", new Date());'
-            config = ${'gtag("config", "' + props.trackingCode + '");'}
-        }
-
-        renderer = afx`
-            <script @if.render={props.trackingId} type="text/plain" data-cookieoptin="analysis" async src={"https://www.googletagmanager.com/gtag/js?id=" + props.trackingId}></script>
-            <script @if.render={props.trackingId} type="text/plain" data-cookieoptin="analysis">{props.code}</script>
-        `
+    code = Neos.Fusion:Join {
+        create = 'window.dataLayer = window.dataLayer || [];'
+        push = 'function gtag(){dataLayer.push(arguments);}'
+        date = 'gtag("js", new Date());'
+        config = ${'gtag("config", "' + trackingCode + '");'}
     }
+
+    renderer = afx`
+        <script @if.render={props.trackingCode} type="text/plain" data-cookie="analysis" async src={"https://www.googletagmanager.com/gtag/js?id=" + props.trackingCode}></script>
+        <script @if.render={props.trackingCode} type="text/plain" data-cookie="analysis">{props.code}</script>
+    `
 }
