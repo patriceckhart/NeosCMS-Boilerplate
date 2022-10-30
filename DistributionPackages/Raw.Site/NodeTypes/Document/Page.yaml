@@ -1,6 +1,7 @@
 'Raw.Site:Document.Page':
   superTypes:
     'Raw.Site:Document.AbstractPage': true
+    'NeosRulez.CookieOptIn:Mixin.Cookie': true
   ui:
     label: i18n
     icon: icon-file-o
