@@ -16,7 +16,7 @@
         "neos/nodetypes": "^8.1",
         "moc/notfound": "*",
         "neos/swiftmailer": "*",
-        "neosrulez/bootstrap": "^5.0",
+        "neosrulez/bootstrap": "^6.0",
         "shel/neos-hyphens": "*",
         "neosrulez/slickcarousel": "^3.0",
         "neosrulez/folder": "^1.0",
