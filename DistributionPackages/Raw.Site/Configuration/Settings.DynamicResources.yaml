@@ -6,11 +6,10 @@ NeosRulez:
           styles:
             animateCss: 'resource://NeosRulez.Bootstrap/Private/Styles/animate.css'
             appCss: 'resource://Raw.Site/Private/Styles/app.scss'
-          scripts:
         footer:
           scripts:
             fsLightboxJs: 'resource://NeosRulez.Bootstrap/Private/JavaScript/fslightbox.js'
-            neosrulezBootstrapJs: 'resource://NeosRulez.Bootstrap/Private/JavaScript/bootstrap.bundle.js'
+            neosrulezBootstrapJs: '../Packages/Libraries/twbs/bootstrap/dist/js/bootstrap.bundle.js'
             jQuery: 'resource://NeosRulez.Bootstrap/Private/JavaScript/jquery-3.6.0.js'
             waypointsJs: 'resource://NeosRulez.Bootstrap/Private/JavaScript/waypoints.js'
             parallaxJs: 'resource://NeosRulez.Bootstrap/Private/JavaScript/parallax.js'
