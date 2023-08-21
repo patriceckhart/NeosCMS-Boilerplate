@@ -17,7 +17,7 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "raw/site": "8.2.x-dev"
+        "raw/site": "dev-main"
     },
     "scripts": {
         "post-update-cmd": "Neos\\Flow\\Composer\\InstallerScripts::postUpdateAndInstall",
