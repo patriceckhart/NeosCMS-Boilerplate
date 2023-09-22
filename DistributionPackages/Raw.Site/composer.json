@@ -22,7 +22,6 @@
         "neosrulez/category": "^1.0",
         "neosrulez/dynamicresources": "^1.0",
         "neosrulez/cookieoptin": "^2.0",
-        "neosrulez/neos-ckeditor-customstyles": "^2.0",
         "dl/assetsource-pexels": "^1.9"
     },
     "require-dev": {
