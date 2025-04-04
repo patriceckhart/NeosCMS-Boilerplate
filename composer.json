@@ -1,6 +1,6 @@
 {
     "name": "neoscms/boilerplate",
-    "description": "Best practice boilerplate for Neos",
+    "description": "Best practice boilerplate for Neos 9",
     "config": {
         "vendor-dir": "Packages/Libraries",
         "bin-dir": "bin",

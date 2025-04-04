@@ -3,33 +3,19 @@
     "description": "Neos CMS Website",
     "type": "neos-site",
     "require": {
-        "neos/neos": "~8.3.0",
-        "neos/neos-ui": "@dev",
-        "neos/seo": "~3.0",
-        "neos/redirecthandler-neosadapter": "~4.2",
-        "neos/redirecthandler-databasestorage": "~5.0",
-        "neos/redirecthandler-ui": "~2.4",
-        "neos/cli-setup": "~8.3.0",
-        "neos/setup": "@dev",
-        "neos/neos-setup": "@dev",
-        "neos/nodetypes": "^8.3",
-        "moc/notfound": "*",
-        "neos/swiftmailer": "*",
-        "neosrulez/bootstrap": "^6.0",
-        "shel/neos-hyphens": "*",
-        "neosrulez/slickcarousel": "^3.0",
-        "neosrulez/folder": "^1.0",
-        "neosrulez/category": "^1.0",
-        "neosrulez/dynamicresources": "^1.0",
-        "neosrulez/cookieoptin": "^2.0",
-        "dl/assetsource-pexels": "^1.9"
+        "neos/neos": "~9.0.0",
+        "neos/contentgraph-doctrinedbaladapter": "~9.0.0",
+        "neos/neos-ui": "9.0.x-dev",
+        "neos/seo": "~4.1",
+        "neos/nodetypes": "^9.0",
+        "neos/swiftmailer": "*"
     },
     "require-dev": {
-        "neos/buildessentials": "~8.3.0",
+        "neos/buildessentials": "~9.0.0",
         "mikey179/vfsstream": "^1.6",
         "phpunit/phpunit": "^9.0",
-        "symfony/css-selector": "~2.0",
-        "neos/behat": "~8.3.0"
+        "neos/neos-setup": "^4.0.x-dev",
+        "neos/site-kickstarter": "~9.0.0"
     },
     "autoload": {
         "psr-4": {

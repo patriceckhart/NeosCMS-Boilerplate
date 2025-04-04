@@ -1,6 +1,6 @@
 # Neos CMS Boilerplate
 
-The Neos CMS Boilerplate is a good basis for starting a new Neos CMS project. It includes all current best practices for Neos CMS 8.
+The Neos CMS Boilerplate is a good basis for starting a new Neos CMS project. It includes all current best practices for Neos CMS 9.
 
 
 ## Do you need help?
